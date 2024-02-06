@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+
+/* ---------------------------- HOME ----------------------------- */
+:global(.vtex-rich-text-0-x-container--deals .vtex-rich-text-0-x-paragraph){
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px; /* 142.857% */
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--deals .vtex-flex-layout-0-x-flexCol) {
+    flex-direction: row;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){
+
+    min-height: 375px!important; 
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--deals .vtex-flex-layout-0-x-flexCol img) {
+
+    padding-right: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--deals) {
+    background-color: #F6F6F6;
+}
+:global(.vtex-flex-layout-0-x-flexRow--banners-home-topo){
+    max-width: 1340px;
+    margin: auto;
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-categorias-home){
+
+    max-width: 1340px;
+    margin: auto;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--deals){
+    max-width: 1340px;
+    margin: auto;
+
+}
+
+
+:global(.vtex-rich-text-0-x-container--shelfTitle) {
+    color: #727273;
+    justify-content: left!important;
+    text-align: left!important;
+    max-width: 1340px;
+    margin: auto;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--shelfTitle) {
+    font-weight: 200;
+    color: #001A57;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: normal;
+    text-align: left;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--banners-home-baixo){
+    max-width: 1340px;
+    margin: auto;
+
+}
+:global(.vtex-flex-layout-0-x-flexRow--banners-home-baixo2){
+    max-width: 1340px;
+    margin: auto;
+
+}
+:global(.vtex-flex-layout-0-x-flexColChild--banners-home-baixo-banner-image){    max-width: 661px;}
+:global(.vtex-flex-layout-0-x-flexColChild--banners-home-baixo2-banner-image){    max-width: 661px;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    background: #F6F6F6;
+}
+
+
+:global(.flex.flex-grow-1.w-100.flex-column) {
+    background: #F6F6F6;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer.vtex-slider-layout-0-x-slideChildrenContainer--shelf.flex.justify-center.items-center.w-100) {
+    background-color: #fff;
+    border-radius: 16px;
+    transition:0.2s;
+    border: 2px solid #fff;
+}
+
+:global(.vtex-product-summary-2-x-brandName) {
+    color: #001A57;
+    font-family: 'Roboto Slab',serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: normal;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue--summary) {
+ 
+    color: #001A57!important;
+    font-family: 'Roboto Slab',serif;
+    font-size: 28px!important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer.vtex-slider-layout-0-x-slideChildrenContainer--shelf.flex.justify-center.items-center.w-100):hover {    border-radius: 16px;
+    border: 2px solid #C4D600;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);}
+/* ---------------------------- END HOME ----------------------------- */
