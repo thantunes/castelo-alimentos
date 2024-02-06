@@ -19,13 +19,13 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/Brazil-icon-io-v2.png",
+      "maxHeight": "20px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "**Castelo vai até você.** Entrega para todo o Brasil.",
       "blockClass": "deals"
     }
   },
@@ -37,13 +37,13 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/Shield-icon-io-v2.png",
+      "maxHeight": "20px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "**Site Seguro.** 117 anos de confiança",
       "blockClass": "deals"
     }
   },
@@ -55,13 +55,13 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/Fast-delivery-icon-io-v2.png",
+      "maxHeight": "20px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "**Frete Grátis.** Confira as regras",
       "blockClass": "deals"
     }
   },
@@ -73,13 +73,13 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/representante-icon-io-v2.png",
+      "maxHeight": "20px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "**Representante Comercial.** Encontre o vendedor da dua região.",
       "blockClass": "deals"
     }
   }
