@@ -6,12 +6,32 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
+
+
+
+      "list-context.image-list#homecategorias",
+      "flex-layout.row#banners-home-topo",
+
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#banners-home-centro",
+
+
+      "rich-text#shelf-title-mais-vendidos",
+      "flex-layout.row#shelf-mais-vendidos",
+
+
+      "flex-layout.row#banners-home-baixo",
+      "flex-layout.row#banners-home-baixo2",
+
+
+      "rich-text#shelf-title-promocoes",
+      "flex-layout.row#shelf-promocoes"
+
+    //  "info-card#home",
+   //   "rich-text#question",
+     // "rich-text#link",
+    
     ]
   },
 
@@ -22,12 +42,12 @@
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "/arquivos/banner-castelo-io.png",
+          "mobileImage": "/arquivos/banner-castelo-io-mobile.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "/arquivos/banner-castelo-io.png",
+          "mobileImage": "/arquivos/banner-castelo-io-mobile.png"
         }
       ]
     }
@@ -47,7 +67,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Escolha do Chefe",
       "blockClass": "shelfTitle"
     }
   },
@@ -73,6 +93,348 @@
       "blockClass": "shelf"
     }
   },
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#banners-home-topo": {
+    "children": ["flex-layout.col#banners-home-topo-banner1","flex-layout.col#banners-home-topo-banner2"],
+    "props": {
+    "blockClass": "banners-home-topo"
+    }
+  },
+
+
+
+  
+  "flex-layout.col#banners-home-topo-banner1": {
+    "children": ["image#banners-home-topo-banner-image-1"],
+    "props": {
+    "blockClass": "banners-home-topo-banner-image"
+    }
+  },
+
+
+  "flex-layout.col#banners-home-topo-banner2": {
+    "children": ["image#banners-home-topo-banner-image-2"],
+    "props": {
+    "blockClass": "banners-home-topo-banner-image"
+    }
+  },
+  "image#banners-home-topo-banner-image-1": {
+    "props": {
+      "src": "/arquivos/banner-linha-organica-io-v3.png"
+   
+    }
+  },
+
+  "image#banners-home-topo-banner-image-2": {
+    "props": {
+      "src": "/arquivos/banner-receitas-blog-io-v3.png"
+      
+    }
+  },
+
+
+  "flex-layout.row#banners-home-centro": {
+    "children": [ "image#banners-home-centro-banner-image"],
+    "props": {
+    "blockClass": "banners-home-centro"
+    }
+  },
+  
+  "image#banners-home-centro-banner-image": {
+    "props": {
+      "src": "/arquivos/banner-oferta-especial-io.png"
+      
+    }
+  },
+
+
+  "list-context.image-list#homecategorias": {
+    "children": ["slider-layout#homecategorias"],
+    "props": {
+      "height": 650,
+     
+      "images": [
+        {
+          "image": "/arquivos/menu-home-balsamicos-v2.png",
+          "description": "Balsâmicos",
+          "link": {
+            "properties": {
+              "url": {
+                "$ref": "/balsâmicos"   
+              }
+            }
+        
+          }
+        },
+
+        {
+          "image": "/arquivos/menu-home-molho-para-salada-v2.png",
+          "description": "Molho para Salada",
+          "link": {
+            "properties": {
+              "url": {
+                "$ref": "/molho%20para%20salada"   
+              }
+            }
+        
+          }
+        },
+        {
+          "image": "/arquivos/menu-home-azeites-v2.png",
+          "description": "Azeites",
+          "link": {
+            "properties": {
+              "url": {
+                "$ref": "/azeites"   
+              }
+            }
+        
+          }
+        },
+        {
+          "image": "/arquivos/menu-home-palmitos-v2.png",
+          "description": "Palmitos",
+          "link": {
+            "properties": {
+              "url": {
+                "$ref": "/palmitos"   
+              }
+            }
+        
+          }
+        },
+        {
+          "image": "/arquivos/menu-home-vinagres-pet-v2.png",
+          "description": "Vinagres PET",
+          "link": {
+            "properties": {
+              "url": {
+                "$ref": "/vinagres%20pet"   
+              }
+            }
+        
+          }
+        },
+        {
+          "image": "/arquivos/menu-home-vinagre-de-mesa-v3.png",
+          "description": "Vinagres Naturais",
+          "link": {
+            "properties": {
+              "url": {
+                "$ref": "/vinagres%20naturais"   
+              }
+            }
+        
+          }
+        },
+        {
+          "image": "/arquivos/menu-home-vinagre-de-mesa-v2.png",
+          "description": "Vinagres de Mesa",
+          "link": {
+            "properties": {
+              "url": {
+                "$ref": "/vinagres%20de%20mesa"   
+              }
+            }
+        
+          }
+        }
+       
+       
+      ]
+    }
+  },
+  "slider-layout#homecategorias": {
+    "props": {
+      "blockClass": "carrousel-categorias-home",
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "rich-text#shelf-title-mais-vendidos": {
+    "props": {
+      "text": "## Mais Vendidos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-mais-vendidos": {
+    "children": ["list-context.product-list#mais-vendidos"]
+  },
+  "list-context.product-list#mais-vendidos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#mais-vendidos"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#mais-vendidos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#banners-home-baixo": {
+    "children": ["flex-layout.col#banners-home-baixo-banner1","flex-layout.col#banners-home-baixo-banner2"],
+    "props": {
+    "blockClass": "banners-home-baixo"
+    }
+  },
+
+
+
+  
+  "flex-layout.col#banners-home-baixo-banner1": {
+    "children": ["image#banners-home-baixo-banner-image-1"],
+    "props": {
+    "blockClass": "banners-home-baixo-banner-image"
+    }
+  },
+
+
+  "flex-layout.col#banners-home-baixo-banner2": {
+    "children": ["image#banners-home-baixo-banner-image-2"],
+    "props": {
+    "blockClass": "banners-home-baixo-banner-image"
+    }
+  },
+  "image#banners-home-baixo-banner-image-1": {
+    "props": {
+      "src": "/arquivos/molho-para-lances-io.png"
+   
+    }
+  },
+
+  "image#banners-home-baixo-banner-image-2": {
+    "props": {
+      "src": "/arquivos/banner-home-pate-io.png"
+      
+    }
+  },
+
+
+
+
+
+
+  
+  "flex-layout.row#banners-home-baixo2": {
+    "children": ["flex-layout.col#banners-home-baixo2-banner1","flex-layout.col#banners-home-baixo2-banner2"],
+    "props": {
+    "blockClass": "banners-home-baixo2"
+    }
+  },
+
+
+
+  
+  "flex-layout.col#banners-home-baixo2-banner1": {
+    "children": ["image#banners-home-baixo2-banner-image-1"],
+    "props": {
+    "blockClass": "banners-home-baixo2-banner-image"
+    }
+  },
+
+
+  "flex-layout.col#banners-home-baixo2-banner2": {
+    "children": ["image#banners-home2-baixo-banner-image-2"],
+    "props": {
+    "blockClass": "banners-home-baixo2-banner-image"
+    }
+  },
+  "image#banners-home-baixo2-banner-image-1": {
+    "props": {
+      "src": "/arquivos/banner-molhos-premium.png"
+   
+    }
+  },
+
+  "image#banners-home2-baixo-banner-image-2": {
+    "props": {
+      "src": "/arquivos/banner-conservas-io.png"
+      
+    }
+  },
+
+
+
+
+
+
+  "rich-text#shelf-title-promocoes": {
+    "props": {
+      "text": "## Promoções",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-promocoes": {
+    "children": ["list-context.product-list#promocoes"]
+  },
+  "list-context.product-list#promocoes": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#promocoes"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#promocoes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+
 
   "info-card#home": {
     "props": {
