@@ -29,11 +29,22 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#spacer",
+      //"vtex.menu@2.x:menu#websites",
+      "rich-text#fretegratis",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
   },
+
+  "rich-text#fretegratis": {
+    "props": {
+      "text": "Frete Grátis SP para compras acima de R$ 300,00 | Consulte Condições*",
+      "blockClass": "barra-azul-frete"
+    }
+  },
+
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -57,9 +68,9 @@
     "children": [
       "flex-layout.col#logo-desktop",
       
-      "flex-layout.col#spacer",
+      //"flex-layout.col#spacer",
       "search-bar",
-      "flex-layout.col#spacer",
+    //  "flex-layout.col#spacer",
       "locale-switcher",
       "login",
       "minicart.v2"
