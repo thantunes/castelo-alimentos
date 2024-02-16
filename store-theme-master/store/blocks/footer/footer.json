@@ -12,12 +12,12 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
+       "flex-layout.col#logo-footer",
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -25,6 +25,29 @@
       "paddingBottom": 3
     }
   },
+
+
+
+  
+
+
+  "flex-layout.col#logo-footer": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#footer","social-networks"]
+  },
+
+  "logo#footer": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-castelo-footer-io.png",
+      "width": "180",
+      "height": "200"
+    }
+  },
+
 
   "social-networks": {
     "props": {
