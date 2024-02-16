@@ -4,15 +4,25 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+     
+      "menu-item#sobrenos",
+      "menu-item#responsabilidadesocial",
+      "menu-item#encontreumrepresentanta",
+      "menu-item#fretegratis",
+      "menu-item#formasdepagamento",
+      "menu-item#trabalhenacastelo",
+      "menu-item#duvidasfrequentes",
+      "menu-item#compliance",
+      "menu-item#canaldedenuncias"
     ]
   },
-  "menu-item#news": {
+
+  
+
+
+  "menu-item#sobrenos": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item#sobrenos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -20,14 +30,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#responsabilidadesocial": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-responsabilidadesocial",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -35,14 +45,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Responsabilidade Social",
+        "text": "Responsabilidade Social"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#encontreumrepresentanta": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-encontreumrepresentanta",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -50,14 +60,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Encontre um Representante",
+        "text": "Encontre um Representante"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#fretegratis": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-fretegratis",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -65,11 +75,104 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Frete Grátis - Consulte Condições",
+        "text": "Frete Grátis - Consulte Condições"
       }
     }
   },
+
+
+
+
+
+  "menu-item#duvidasfrequentes": {
+    "props": {
+      "id": "menu-item-duvidasfrequentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dúvidas Frequentes",
+        "text": "Dúvidas Frequentes"
+      }
+    }
+  },
+
+
+
+  "menu-item#formasdepagamento": {
+    "props": {
+      "id": "menu-item-formasdepagamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#trabalhenacastelo": {
+    "props": {
+      "id": "menu-item-trabalhenacastelo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trabalhe na Castelo",
+        "text": "Trabalhe na Castelo"
+      }
+    }
+  },
+
+
+  "menu-item#compliance": {
+    "props": {
+      "id": "menu-item-compliance",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Compliance",
+        "text": "Compliance"
+      }
+    }
+  },
+
+
+  "menu-item#canaldedenuncias": {
+    "props": {
+      "id": "menu-item-canaldedenuncias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Canal de Denúncias",
+        "text": "Canal de Denúncias"
+      }
+    }
+  },
+
+
 
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
@@ -194,12 +297,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#meuspedidos",
+      "menu-item#minhaconta",
+      "menu-item#comprasegura",
+      "menu-item#atendimento"
     ]
   },
 
@@ -239,11 +340,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#meuspedidos",
+      "menu-item#minhaconta",
+      "menu-item#comprasegura",
+      "menu-item#atendimento"
     ]
   },
 
@@ -295,7 +395,7 @@
     ]
   },
 
-  "menu-item#clothing": {
+  "menu-item#meuspedidos": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
@@ -303,15 +403,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/#",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Meus Pedidos",
+        "text": "Meus Pedidos"
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#minhaconta": {
     "props": {
       "id": "menu-item-shorts",
       "type": "custom",
@@ -319,15 +419,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/#",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#comprasegura": {
     "props": {
       "id": "menu-item-tank-tops",
       "type": "custom",
@@ -335,15 +435,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/#",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Compra Segura",
+        "text": "Compra Segura"
       }
     }
   },
 
-  "menu-item#shirts": {
+  "menu-item#atendimento": {
     "props": {
       "id": "menu-item-shirts",
       "type": "custom",
@@ -351,10 +451,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "/#",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
       }
     }
   },
