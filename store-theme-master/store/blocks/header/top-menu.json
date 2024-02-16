@@ -22,21 +22,37 @@
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#vtex-website"
+      "menu-item#vtex-website",
+      "menu-item#falarcomsac"
     ]
   },
   "menu-item#vtex-website": {
     "props": {
-      "id": "menu-item-vtex-website",
+      "id": "menu-item-blog-castelo",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "https://blog.casteloalimentos.com.br/",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#falarcomsac": {
+    "props": {
+      "id": "menu-item-falar-com-o-sac",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sac",
+        "noFollow": false,
+        "tagTitle": "Falar com o Sac",
+        "text": "Falar com o Sac"
       }
     }
   }
