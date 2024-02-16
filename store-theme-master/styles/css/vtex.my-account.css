@@ -1,7 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
 
+
+/* ---------------------- HEADER ----------------------------*/
+:global(.vtex-store-components-3-x-searchBarInnerContainer){    border-bottom: 1px solid #001A57;}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer)
+:global(.vtex-input-prefix__group) {    border: none;}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer)
+:global(.vtex-styleguide-9-x-input){background-color: transparent;}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer)
+:global(.vtex-input__suffix) {background-color: transparent;}
+
+:global(.vtex-store-components-3-x-searchBarContainer){    min-width: 914px;}
+
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {height: 78px!important;}
+
+:global(ul.vtex-menu-2-x-menuContainer.list.flex.pl0.mv0.flex-row) {
+    margin-top: -45px;
+    margin-left: 15px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--barra-azul-frete) {
+    font-family: 'Roboto Slab',serif;
+    color: #fff;
+    font-size: 12px;    padding-left: 220px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link){
+
+    height: 40px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link)
+:global(ul.vtex-menu-2-x-menuContainer.list.flex.pl0.mv0.flex-row) {
+    margin-top: 0px!important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap) {
+    color: #001A57;
+    font-family: 'Roboto Slab',serif;
+    font-size: 16px;
+}
+
+:global(button.vtex-locale-switcher-0-x-button.link.pa0.bg-transparent.bn.flex.items-center.pointer.mr3.c-on-base) {
+    display: none;
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer){ background-image: url(/arquivos/sacola.png);
+    width: 21px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    margin-top: -15px}
+
+
+    :global(.vtex-minicart-2-x-minicartContainer)
+    :global(.vtex-button) {background-color:transparent!important;}
+
+    :global(.vtex-login-2-x-container) 
+    :global(.vtex-button)
+        {    background-image: url(/arquivos/icone-login-io.png);
+            background-size: 21px;
+            background-repeat: no-repeat;
+            background-position: left;
+            margin-top: -15px
+    }
+
+
+    :global(.vtex-login-2-x-container) 
+    :global(.vtex-button):hover {background-color:transparent!important;}
+
+:global(.vtex-minicart-2-x-cartIcon) {  display:none;}
+
+
+:global(.vtex-login-2-x-label) {
+    font-family: 'Roboto Slab',serif;
+    color: #001A57;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+:global(#menu-item-blog-castelo){
+
+    background-color: #C4D600;
+    display: block;
+    padding: 11px;
+    margin-top: -16px;
+}
+
+
+:global(#menu-item-falar-com-o-sac) {display: block;
+    background-image: url(/arquivos/icone-fale-com-o-sac.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    /* margin: 10px; */
+    background-size: 30px;
+    height: 40px;
+    margin-top: -15px;
+    padding-left: 40px;}
+
+:global(#menu-item-falar-com-o-sac)
+:global(.vtex-menu-2-x-styledLinkContent){color:#fff!important;    padding-top: 9px;}
+
+
+/* ---------------------- END HEADER ----------------------------*/
+
 /* ---------------------------- HOME ----------------------------- */
+
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){
+
+    max-width: 1450px;
+}
+
 :global(.vtex-rich-text-0-x-container--deals .vtex-rich-text-0-x-paragraph){
     font-family: 'Roboto', sans-serif;
     color: #000;
@@ -12,12 +129,26 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--deals .vtex-flex-layout-0-x-flexCol) {
     flex-direction: row;
+    justify-content: center;
 }
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){
 
     min-height: 375px!important; 
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--deals)
+:global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(1){    width: 25%!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--deals)
+:global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(2){    width: 23%!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--deals)
+:global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(3){    width: 21%!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--deals)
+:global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(4){    width: 33%!important;}
+
 
 :global(.vtex-flex-layout-0-x-flexRow--deals .vtex-flex-layout-0-x-flexCol img) {
 
@@ -43,6 +174,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--deals){
     max-width: 1340px;
+    padding-top: 30px;
     margin: auto;
 
 }
@@ -124,3 +256,48 @@
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);}
 /* ---------------------------- END HOME ----------------------------- */
+
+
+
+/* ----------------------------FOOTER ---------------------------------*/
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
+    max-width: 1340px;
+    margin: auto;
+
+}
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap){    color: #fff!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row){
+    background: #001A57;
+}
+
+:global(.vtex-store-components-3-x-newsletter){
+
+    background-color: #fff!important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+:global(.vtex-store-components-3-x-newsletter)  
+:global(.vtex-store-components-3-x-label) {color: #001A57;}
+
+
+:global(.vtex-store-components-3-x-newsletter)  
+:global(.vtex-button__label) {color: #00924B;}
+
+
+:global(.vtex-store-components-3-x-inputGroup) 
+:global(.vtex-styleguide-9-x-hideDecorators::placeholder) {
+    color: #000!important;
+}
+
+:global(.vtex-store-components-3-x-inputGroup)
+:global(.vtex-styleguide-9-x-hideDecorators) {  color: #000!important;}
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-styledLinkContent){    color: #fff;}
+
+
