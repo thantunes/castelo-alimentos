@@ -12,12 +12,12 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-       "flex-layout.col#logo-footer",
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer"
+      "flex-layout.col#logo-footer",
+      "flex-layout.col#fale-conosco",
+      "flex-layout.col#institucional",
+      "flex-layout.col#area-do-cliente",
+    
+      "flex-layout.col#funcionamento-loja-de-fabrica"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -27,13 +27,20 @@
   },
 
 
+"newsletter":{
 
+  "props": {
+    "label":"Fique por dentro de nossas novidades e promoções em primeira mão",
+    "placeholder":"Digite aqui seu e-mail",
+    "submit":"Enviar"
+  }
+},
   
 
 
   "flex-layout.col#logo-footer": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "top"
     },
     "children": ["logo#footer","social-networks"]
   },
@@ -71,6 +78,156 @@
       ]
     }
   },
+
+
+ 
+
+  "flex-layout.col#institucional": {
+    "props": {
+      "verticalAlign": "top"
+    },
+    "children": [
+      "rich-text#faleconosco-footer-title",
+      "vtex.menu@2.x:menu#Products"
+    
+    ]
+  },
+
+
+  "flex-layout.col#fale-conosco": {
+    "props": {
+      "verticalAlign": "top"
+    },
+    "children": [
+      "rich-text#faleconosco-footer-title",
+      "rich-text#atendimento",
+      "rich-text#telefone",
+      "rich-text#email"
+    
+    ]
+  },
+
+  "rich-text#faleconosco-footer-title": {
+    "props": {
+      "text": "Fale Conosco",
+      "blockClass": "footer-fale-conosco"
+    }
+  },
+
+
+
+
+
+
+  
+  "flex-layout.col#area-do-cliente": {
+    "props": {
+      "verticalAlign": "top"
+    },
+    "children": [
+      "rich-text#area-do-cliente-footer-title",
+      "vtex.menu@2.x:menu#footer-clothing"
+    
+    ]
+  },
+
+
+  "rich-text#area-do-cliente-footer-title": {
+    "props": {
+
+      "text": "Área do cliente",
+      "blockClass": "footer-area-do-cliente-title"
+    }
+  },
+
+
+  "rich-text#atendimento": {
+    "props": {
+
+      "text": "Segunda à Quinta-feira 9h às 12h / 13 às 18h \n e Sexta-feira 9h às 12h / 13h às 17h",
+      "blockClass": "footer-horario-de-atendimento"
+    }
+  },
+
+  "rich-text#telefone": {
+    "props": {
+      "text": "0800 771 6111",
+      "blockClass": "footer-telefone-atendimento"
+    }
+  },
+
+
+  "rich-text#email": {
+    "props": {
+      "text": "lojavirtual@casteloalimentos.com.br",
+      "blockClass": "footer-email-atendimento"
+    }
+  },
+
+
+  "flex-layout.col#funcionamento-loja-de-fabrica": {
+    "props": {
+      "verticalAlign": "top"
+    },
+    "children": [
+      "rich-text#funcionamento-loja-de-fabrica-footer-title",
+      "rich-text#funcionamento-loja-fabrica-seg-sex",
+      "rich-text#funcionamento-loja-fabrica-sabado",
+      "rich-text#funcionamento-loja-fabrica-fone",
+      "rich-text#funcionamento-loja-fabrica-end"
+     
+    
+    ]
+  },
+
+
+  "rich-text#funcionamento-loja-de-fabrica-footer-title": {
+    "props": {
+      "text": "Funcionamento Loja de Fábrica",
+      "blockClass": "funcionamento-loja-de-fabrica"
+    }
+  },
+
+
+
+  "rich-text#funcionamento-loja-fabrica-seg-sex": {
+    "props": {
+      "text": "Segunda à sexta, das 8h30 às 17h45",
+      "blockClass": "funcionamento-loja-de-fabrica-text"
+    }
+  },
+
+
+
+
+  "rich-text#funcionamento-loja-fabrica-sabado": {
+    "props": {
+      "text": "Sábado, das 8h30 às 15h45",
+      "blockClass": "funcionamento-loja-de-fabrica-text"
+    }
+  },
+
+
+
+
+
+
+  "rich-text#funcionamento-loja-fabrica-fone": {
+    "props": {
+      "text": "Fone: (11) 4589-7710",
+      "blockClass": "funcionamento-loja-de-fabrica-text"
+    }
+  },
+
+
+  "rich-text#funcionamento-loja-fabrica-end": {
+    "props": {
+      "text": "Av. Prof.ª Maria do Carmo Guimarães \n Pellegrini, 480 - Retiro, Jundiaí - SP",
+      "blockClass": "funcionamento-loja-de-fabrica-text"
+    }
+  },
+
+
 
   "flex-layout.row#footer-2-desktop": {
     "children": ["accepted-payment-methods"],
