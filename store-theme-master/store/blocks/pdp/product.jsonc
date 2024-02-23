@@ -40,7 +40,8 @@
   "tab-list#product": {
     "children": [
       "tab-list.item#product1",
-      "tab-list.item#product2"
+      "tab-list.item#product2",
+      "tab-list.item#product3"
     ]
   },
   "tab-list.item#product1": {
@@ -56,10 +57,17 @@
       "label": "Especificação"
     }
   },
+  "tab-list.item#product3": {
+    "props": {
+      "tabId": "product3",
+      "label": "Informações Adicionais"
+    }
+  },
  "tab-content#product": {
    "children": [
      "tab-content.item#product1",
-     "tab-content.item#product2"
+     "tab-content.item#product2",
+     "tab-content.item#product3"
    ]
  },
  "tab-content.item#product1": {
@@ -78,6 +86,20 @@
      "tabId": "product2"
    }
  },
+
+
+ "tab-content.item#product3": {
+  "children": [
+    "product-specification-group#infoadd"
+  ],
+  "props": {
+    "tabId": "product3"
+  }
+},
+
+
+
+
 
   /* ------------------------- end teste tab --------------------------------*/
 
