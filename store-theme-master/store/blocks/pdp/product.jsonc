@@ -3,20 +3,92 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table",
+    //  "flex-layout.row#description",
+      "tab-layout#product",
+     // "flex-layout.row#specifications-title",
+     // "product-specification-group#table",
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
     ]
+
+  
   },
   "flex-layout.row#specifications-title": {
-    "children": ["rich-text#specifications"]
+    "children": ["rich-text#specifications"],
+    "props": {
+      "blockClass": "pagina-de-produto-conteudo-geral-especificacao-titulo"
+    }
   },
+
+
+
+  /* -----------------------teste tab----------------------------------- */
+
+
+
+  "tab-layout#product": {
+    "children": [
+      "tab-list#product",
+      "tab-content#product"
+    ],
+    "props": {
+      "blockClass": "product",
+      "defaultActiveTabId": "product1"
+    }
+  },
+  "tab-list#product": {
+    "children": [
+      "tab-list.item#product1",
+      "tab-list.item#product2"
+    ]
+  },
+  "tab-list.item#product1": {
+    "props": {
+      "tabId": "product1",
+      "label": "Descrição",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#product2": {
+    "props": {
+      "tabId": "product2",
+      "label": "Especificação"
+    }
+  },
+ "tab-content#product": {
+   "children": [
+     "tab-content.item#product1",
+     "tab-content.item#product2"
+   ]
+ },
+ "tab-content.item#product1": {
+   "children": [
+    "flex-layout.row#description"
+   ],
+   "props": {
+     "tabId": "product1"
+   }
+ },
+ "tab-content.item#product2": {
+   "children": [
+    "product-specification-group#table"
+   ],
+   "props": {
+     "tabId": "product2"
+   }
+ },
+
+  /* ------------------------- end teste tab --------------------------------*/
+
+
+
+
+
+
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      "text": "##### Especificação"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -27,7 +99,8 @@
   },
   "flex-layout.row#description": {
     "props": {
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "pagina-de-produto-conteudo-geral"
     },
     "children": ["product-description"]
   },
@@ -49,7 +122,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "pagina-de-produto-conteudo-geral"
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
@@ -104,16 +178,17 @@
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
-      "product-separator",
-      "product-identifier.product",
+      //"product-separator",
+    //  "product-identifier.product",
       "sku-selector",
-      "product-quantity",
+     // "product-quantity",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      "product-separator",
+      "shipping-simulator"
+    //  "share#default"
     ]
   },
 
@@ -134,9 +209,10 @@
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "botao-comprar-pdp"
     },
-    "children": ["add-to-cart-button"]
+    "children": ["product-quantity","add-to-cart-button"]
   },
 
   "flex-layout.row#product-availability": {
