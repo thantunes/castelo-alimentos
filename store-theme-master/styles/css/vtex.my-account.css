@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
 
 
 /* ---------------------- HEADER ----------------------------*/
@@ -224,6 +224,7 @@
 
 :global(.flex.flex-grow-1.w-100.flex-column) {
     background: #F6F6F6;
+    padding-bottom: 25px;
 }
 
 :global(.vtex-slider-layout-0-x-slideChildrenContainer.vtex-slider-layout-0-x-slideChildrenContainer--shelf.flex.justify-center.items-center.w-100) {
@@ -493,7 +494,37 @@
     margin-bottom: 50px;
    
 
+
 }
+
+
+:global(.vtex-tab-layout-0-x-listItemActive--botao-descricao-pdp)
+:global(.vtex-button){    background-image: url(/arquivos/icon-descricao-pdp-io.png);
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-size: 24px;
+    padding-left: 20px;
+    margin-left: 16px;}
+
+
+    
+    :global(.vtex-tab-layout-0-x-listItem--botao-espeficicacao-pdp)
+:global(.vtex-button){    background-image: url(/arquivos/icon-especificacao-pdp-io.png);
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-size: 24px;
+    padding-left: 20px;
+    margin-left: 16px;}
+
+
+    :global(.vtex-tab-layout-0-x-listItem--botao-info-adicionais-pdp)
+    :global(.vtex-button){    background-image: url(/arquivos/icon-infos-add-pdp-io.png);
+        background-repeat: no-repeat;
+        background-position: 12px center;
+        background-size: 24px;
+        padding-left: 20px;
+        margin-left: 16px;}
+
 
 :global(.vtex-store-components-3-x-productDescriptionText) {
 
@@ -507,4 +538,89 @@
 
 :global(.vtex-store-components-3-x-productDescriptionTitle){display:none;}
 
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup){
+    padding: 20px 25px 0px 25px;
+}
+
+
+:global(span.vtex-product-specifications-1-x-specificationValue.vtex-product-specifications-1-x-specificationValue--first.vtex-product-specifications-1-x-specificationValue--last){
+
+    font-family: 'Roboto Slab',serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 24px; */
+    color: #000;
+}
+
+:global(.vtex-product-specifications-1-x-specificationName){font-family: 'Roboto Slab',serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 24px; */
+    color: #000;}
+
+
 /* ---------------- END PÁGINA DE PRODUTO ---------------------------------*/
+
+
+
+/* ---------------- PÁGINA DE DEPARTAMENTO ---------------------*/
+
+:global(.vtex-search-result-3-x-container--layout){
+
+    max-width: 1340px;
+    margin: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--filterCol){
+
+    background-color:#fff;
+    padding: 15px;
+}
+
+:global(.vtex-product-summary-2-x-container) {
+
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #fff;
+}
+
+:global(.render-route-store-search-department)
+:global(.vtex-product-summary-2-x-container):hover {
+    border: 2px solid #C4D600;
+}
+:global(.render-route-store-search-department)
+:global(.vtex-product-summary-2-x-container):hover
+:global(.vtex-flex-layout-0-x-flexCol--bloco-bt-comprar-quantidade-vitrine){
+    opacity: 1;
+
+}
+
+:global(.render-route-store-search-category)
+:global(.vtex-product-summary-2-x-container):hover {
+    border: 2px solid #C4D600;
+}
+:global(.render-route-store-search-category)
+:global(.vtex-product-summary-2-x-container):hover
+:global(.vtex-flex-layout-0-x-flexCol--bloco-bt-comprar-quantidade-vitrine){
+    opacity: 1;
+
+}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--filterCol)
+:global(.vtex-checkbox__label){    font-family: 'Roboto Slab',serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    margin-top: -2px;}
+
+
+    :global(.vtex-search-result-3-x-filterTitleSpan) {
+        overflow: hidden;
+        font-family: 'Roboto Slab',serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+    }
+
+/* ---------------- END PÁGINA DE DEPARTAMENTO ---------------------*/
