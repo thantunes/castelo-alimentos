@@ -263,6 +263,31 @@
 
 
 /* ----------------------------FOOTER ---------------------------------*/
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){    width: 18%!important;}
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){    width: 26%!important;}
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(3){    width: 20%!important;}
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(4){    width: 16%!important;}
+
+
+:global(.vtex-store-footer-2-x-socialNetworksContainer){
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 12px;
+    margin-right: 17px;
+    padding-bottom: 15px;
+
+}
+
+
+
 
 :global(.vtex-store-components-3-x-newsletter)
 :global(.vtex-input-prefix__group){
@@ -300,9 +325,10 @@
     color: #C4D600!important;
     font-family: 'Roboto Slab',serif!important;
 
-    font-size: 18px;
+    font-size: 16px!important;
     font-weight: 600;
-    margin-bottom: 15px;
+
+    margin-bottom: 10px!important;
 }
 
 :global(.vtex-store-footer-2-x-footerLayout)
@@ -359,13 +385,26 @@
 :global(.vtex-store-footer-2-x-footerLayout)
 :global(.vtex-rich-text-0-x-paragraph) {color:#fff;color: rgb(255, 255, 255);
     font-family: Roboto, sans-serif;
-    padding: 0px;
-    margin: 0px;}
+    padding: 0px;font-size:14px;  
+    margin: 0px;  margin-bottom: 10px;}
     :global(.vtex-store-footer-2-x-footerLayout)
     :global(.vtex-menu-2-x-styledLinkContent){color:#fff;color: rgb(255, 255, 255);
         font-family: Roboto, sans-serif!important;
         padding: 0px;
-        margin: 0px;}
+        font-size: 14px!important;
+        font-weight: 400;   
+        margin: 0px;  margin-bottom: 3px;}
+
+
+        :global(.vtex-rich-text-0-x-link--footer-email-atendimento){
+            color:#fff;color: rgb(255, 255, 255);
+            font-family: Roboto, sans-serif!important;
+            padding: 0px;
+            font-size: 14px!important;
+            font-weight: 400;
+            margin: 0px;
+
+        }
 
 
 /* --------------------- VITRINE ----------------------------------*/
@@ -422,3 +461,50 @@
 :global(.vtex-flex-layout-0-x-flexCol--bloco-bt-comprar-quantidade-vitrine){opacity: 1;    }
 
 /* --------------------- END - VITRINE ----------------------------------*/
+
+
+/* ---------------- PÁGINA DE PRODUTO ---------------------------------*/
+
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-productBrand){color: #001A57;font-family: 'Roboto Slab',serif;font-size: 32px;font-weight: 500;}
+:global(.render-route-store-product)
+:global(.vtex-product-price-1-x-sellingPriceValue){font-weight: 700;color: #000;font-family: 'Roboto Slab',serif;font-size: 32px;}
+:global(.render-route-store-product)
+:global(.vtex-product-price-1-x-installments){font-weight: 700;color: #000;font-family: 'Roboto Slab',serif;font-size: 14px;}
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-flexRowContent--pagina-de-produto-conteudo-geral){max-width: 1340px;margin: auto;}
+
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-flexRowContent--pagina-de-produto-conteudo-geral-especificacao-titulo){max-width: 1340px;margin: auto;}
+
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup){max-width: 1340px;margin: auto;}
+
+:global(.vtex-tab-layout-0-x-container--product)
+:global(.hover-b--action-primary){background-color: #C4D600;    border: none;}
+
+:global(.render-route-store-product)
+:global(.vtex-tab-layout-0-x-contentContainer) {
+    border: 1px solid #C4D600;
+    background-color: #fff;
+    border-radius: 16px;
+    max-width: 1340px;
+    margin: auto;
+    margin-bottom: 50px;
+   
+
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText) {
+
+    font-family: 'Roboto Slab',serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    padding: 20px;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionTitle){display:none;}
+
+/* ---------------- END PÁGINA DE PRODUTO ---------------------------------*/
