@@ -264,6 +264,136 @@
 
 
 /* ----------------------------FOOTER ---------------------------------*/
+
+
+:global(.vtex-flex-layout-0-x-flexRow--payment-methods){    background: #001A57;
+    padding-bottom: 20px;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--payment-methods)
+    :global(.vtex-store-components-3-x-container){
+        max-width: 1270px;
+        margin: auto;
+
+    }
+
+    :global(.vtex-rich-text-0-x-paragraph--formas-de-pagamento-title)
+   {
+        color: #C4D600!important;
+        font-family: 'Roboto Slab',serif!important;
+        font-size: 16px!important;
+        font-weight: 600;
+        margin-bottom: 10px!important;
+
+
+    }
+
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--payment-methods)
+    :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(1){    width: 60%!important;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--payment-methods)
+    :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(2){    width: 28%!important;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--payment-methods)
+    :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(3){    width: 19%!important;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--payment-methods){
+        border-top: 1px solid #2BACE2;
+        padding-top: 15px;
+
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--menu-row){
+
+        padding-bottom: 20px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--credits) {    max-width: 1275px;
+        margin: auto;
+        padding-top: 6px;}
+
+        :global(.vtex-flex-layout-0-x-flexRow--credits)
+        :global(.vtex-rich-text-0-x-paragraph--footer){
+font-size:12px;
+            color: #757575!important
+            ;
+
+
+
+
+        }
+
+        :global(.vtex-store-components-3-x-imageElement--evision){    width: 55px;
+            height: 14px;    padding-top: 3px;}
+
+
+            :global(.vtex-store-components-3-x-imageElement--vtex){
+
+                width: 51px;
+                width: 60px;
+            }
+
+
+            :global(.vtex-rich-text-0-x-paragraph--footer-horario-de-atendimento){
+                background-image: url(https://t76496.vtexassets.com/arquivos/icon-horario-footer-io.png);
+                background-position: left center;
+                background-repeat: no-repeat;
+                padding-left: 28px!important;
+
+            }
+
+
+            
+            :global(.vtex-rich-text-0-x-paragraph--footer-telefone-atendimento){
+                background-image: url(https://t76496.vtexassets.com/arquivos/icon-telefone-footer-io.png);
+                background-position: left center;
+                background-repeat: no-repeat;
+                padding-left: 28px!important;
+
+            }
+
+
+            :global(.vtex-rich-text-0-x-container--footer-email-atendimento){
+                background-image: url(https://t76496.vtexassets.com/arquivos/icon-email-footer-io.png);
+                background-position: left center;
+                background-repeat: no-repeat;
+                padding-left: 28px!important;
+
+            }
+
+            :global(.vtex-rich-text-0-x-paragraph--footer-email-atendimento){
+
+                padding-top: 10px;
+            }
+
+        :global(.vtex-flex-layout-0-x-flexRowContent--credits)
+        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(1){    width: 85%!important;}
+
+        :global(.vtex-flex-layout-0-x-flexRowContent--credits)
+        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(2){    width: 15%!important;}
+
+
+        :global(.vtex-flex-layout-0-x-flexRowContent--credits)
+        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(2)
+        :global(.vtex-flex-layout-0-x-flexRowContent)
+        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex){ width: 100%!important;}
+
+    :global(.vtex-rich-text-0-x-container--footer-txt)
+    :global(.vtex-rich-text-0-x-paragraph--footer-txt){    color: #757575!important;    font-size: 12px!important;}
+
+
+    :global(.vtex-flex-layout-0-x-flexCol--redes-sociais-footer){
+
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 11px;
+    }
+
+
+    :global(.vtex-flex-layout-0-x-flexColChild.vtex-flex-layout-0-x-flexColChild--redes-sociais-footer.pb0){    margin: auto;}
+   
+
 :global(.vtex-store-footer-2-x-footerLayout)
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){    width: 18%!important;}
@@ -479,10 +609,10 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--pagina-de-produto-conteudo-geral-especificacao-titulo){max-width: 1340px;margin: auto;}
 
 :global(.render-route-store-product)
-:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup){max-width: 1340px;margin: auto;}
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup){max-width: 1340px;margin: auto;    padding-bottom: 20px;}
 
 :global(.vtex-tab-layout-0-x-container--product)
-:global(.hover-b--action-primary){background-color: #C4D600;    border: none;}
+:global(.hover-b--action-primary){background-color: #C4D600!important; color:#fff!important;    border: none;}
 
 :global(.render-route-store-product)
 :global(.vtex-tab-layout-0-x-contentContainer) {
@@ -497,16 +627,127 @@
 
 }
 
+:global(.vtex-store-components-3-x-shippingContainer) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 0px;
+}
 
-:global(.vtex-tab-layout-0-x-listItemActive--botao-descricao-pdp)
+:global(.vtex-store-components-3-x-shippingContainer) 
+:global(.vtex-button__label) {
+    font-size: 0;
+}
+
+
+:global(.vtex-store-components-3-x-shippingContainer)
+:global(.vtex-button__label):after {
+    content: "OK";
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: normal;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+:global(.vtex-store-components-3-x-shippingContainer)
+:global(.vtex-input-prefix__group) {
+    width: 312px;
+    height: 37px;
+    margin-right: 15px;
+}
+
+
+:global(.vtex-store-components-3-x-shippingContainer)
+:global(.vtex-button) {
+    width: 70px;
+    height: 37px;
+    border: none;
+    margin-top: -37px;
+    background-color: #C2C2C2;
+    color: #000;
+}
+
+
+:global(.vtex-address-form__postalCode-forgottenURL) a {
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+
+}
+
+:global(.vtex-store-components-3-x-shippingTableRow)
+:global(.vtex-store-components-3-x-shippingTableLabel),
+:global(.vtex-store-components-3-x-shippingTableRow)
+:global(.vtex-store-components-3-x-shippingTableCellDeliveryEstimate),
+:global(.vtex-store-components-3-x-shippingTableRow)
+v:global(.tex-store-components-3-x-currencyContainer)
+{
+    font-family: 'Roboto Slab', serif;
+    color:#727273;
+    font-size:14px;
+}
+
+
+
+:global(.vtex-tab-layout-0-x-listItem--botao-descricao-pdp)
 :global(.vtex-button){    background-image: url(/arquivos/icon-descricao-pdp-io.png);
     background-repeat: no-repeat;
     background-position: 12px center;
     background-size: 24px;
     padding-left: 20px;
-    margin-left: 16px;}
+    margin-left: 16px;    background-color: #fff;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    padding-right: 30px;
+    height:50px;
+    border-radius: 15px;
+}
 
 
+
+:global(.vtex-search-result-3-x-filterTemplateOverflow::-webkit-scrollbar) {
+    width: 5px; /* largura do scrollbar */
+  }
+  
+  :global(.vtex-search-result-3-x-filterTemplateOverflow::-webkit-scrollbar-thumb) {
+    background-color: #C4D600; /* cor da thumb (barra) */
+  }
+  
+  :global(.vtex-search-result-3-x-filterTemplateOverflow::-webkit-scrollbar-track) {
+    background: transparent; /* cor do track (trilha) */
+  }
+
+:global(.vtex-search-result-3-x-filterIcon){
+    color: #C4D600;
+    padding-right: 0;
+    margin-right: -5px;
+
+}
+
+:global(svg.vtex__icon-check) {
+    background-color: #C4D600;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+
+
+:global(.vtex-checkbox__box-wrapper.absolute.w1.h1.flex.o-100) {
+    /* background-color: #fff; */
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+:global(.vtex-checkbox__inner-container.h1.w1.absolute.ba.bw1.br1.b--action-primary.bg-action-primary.mr3){
+    border-radius: 5px;
+
+
+}
     
     :global(.vtex-tab-layout-0-x-listItem--botao-espeficicacao-pdp)
 :global(.vtex-button){    background-image: url(/arquivos/icon-especificacao-pdp-io.png);
@@ -514,7 +755,13 @@
     background-position: 12px center;
     background-size: 24px;
     padding-left: 20px;
-    margin-left: 16px;}
+    margin-left: 16px;    background-color: #fff;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    padding-right: 30px;
+    height:50px;
+    border-radius: 15px;
+}
 
 
     :global(.vtex-tab-layout-0-x-listItem--botao-info-adicionais-pdp)
@@ -523,7 +770,67 @@
         background-position: 12px center;
         background-size: 24px;
         padding-left: 20px;
-        margin-left: 16px;}
+        margin-left: 16px;    background-color: #fff;
+        font-family: 'Roboto Slab', serif;
+    color: #000;
+    padding-right: 30px;
+    height:50px;
+    border-radius: 15px;
+    }
+
+
+
+    :global(.vtex-tab-layout-0-x-listItem--botao-descricao-pdp)
+    :global(.vtex-button)
+    :global(.vtex-button__label)::after,
+    :global(.vtex-tab-layout-0-x-listItem--botao-espeficicacao-pdp)
+    :global(.vtex-button)
+    :global(.vtex-button__label)::after,
+    :global(.vtex-tab-layout-0-x-listItem--botao-info-adicionais-pdp)
+    :global(.vtex-button)
+    :global(.vtex-button__label)::after
+    
+    {
+
+        content: "";
+        background-image: url(/arquivos/Arrow-point-to-right.png);
+        width: 25px;
+        height: 21px;
+        background-size: 22px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0;
+        padding-right: 20px;
+
+    }
+                       
+    
+
+
+
+
+    :global(.vtex-tab-layout-0-x-listItemActive.vtex-tab-layout-0-x-listItem--botao-descricao-pdp)
+    :global(.vtex-button)
+    :global(.vtex-button__label)::after,
+    :global(.vtex-tab-layout-0-x-listItemActive.vtex-tab-layout-0-x-listItem--botao-espeficicacao-pdp)
+    :global(.vtex-button)
+    :global(.vtex-button__label)::after,
+    :global(.vtex-tab-layout-0-x-listItemActive.vtex-tab-layout-0-x-listItem--botao-info-adicionais-pdp)
+    :global(.vtex-button)
+    :global(.vtex-button__label)::after {
+
+        content: "";
+        background-image: url(/arquivos/Arrow-point-to-right-hover.png);
+        width: 25px;
+        height: 21px;
+        background-size: 22px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0;
+        padding-right: 20px;
+    }
 
 
 :global(.vtex-store-components-3-x-productDescriptionText) {
@@ -558,6 +865,34 @@
     /* line-height: 24px; */
     color: #000;}
 
+    :global(.vtex-flex-layout-0-x-flexRow--botao-comprar-pdp)
+    :global(.vtex-button){background-color:#00924B;    min-width: 265px;border:none;    height: 40px;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--botao-comprar-pdp){
+        margin-top: 50px;
+       
+        max-width: 360px;
+
+    }
+
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroupName){display:none;}
+
+:global(.render-route-store-product)
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper){    margin-top: 3px;}
+
+:global(.vtex-numeric-stepper__input){    background-color: transparent;}
+
+
+
+:global(.vtex-store-components-3-x-fadeBottom) {
+    background-image: none!important;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.vtex-store-components-3-x-container){    height: auto!important;}
+
+
+:global(.vtex-store-components-3-x-showMoreButton) {display:none;}
 
 /* ---------------- END PÁGINA DE PRODUTO ---------------------------------*/
 
@@ -595,6 +930,18 @@
 
 }
 
+
+:global(.render-route-store-search)
+:global(.vtex-product-summary-2-x-container):hover {
+    border: 2px solid #C4D600;
+}
+:global(.render-route-store-search)
+:global(.vtex-product-summary-2-x-container):hover
+:global(.vtex-flex-layout-0-x-flexCol--bloco-bt-comprar-quantidade-vitrine){
+    opacity: 1;
+
+}
+
 :global(.render-route-store-search-category)
 :global(.vtex-product-summary-2-x-container):hover {
     border: 2px solid #C4D600;
@@ -605,13 +952,17 @@
     opacity: 1;
 
 }
+:global(.vtex-slider__base-internal),
+:global(.vtex-slider__selector){
 
+    background-color: #C4D600;
+}
 
 :global(.vtex-flex-layout-0-x-flexColChild--filterCol)
 :global(.vtex-checkbox__label){    font-family: 'Roboto Slab',serif;
     font-size: 14px;
     font-weight: 300;
-    color: #000;
+    color: #000;    text-transform: lowercase;
     margin-top: -2px;}
 
 
