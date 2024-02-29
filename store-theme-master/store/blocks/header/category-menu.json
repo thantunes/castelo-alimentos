@@ -50,9 +50,15 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-vinagres",
+      "menu-item#category-sumo-de-limao",
+      "menu-item#category-molhos",
+      "menu-item#category-conservas",
+      "menu-item#category-azeites",
+      "menu-item#category-pates",
+      "menu-item#category-temperos",
+      "menu-item#category-kits",
+      "menu-item#category-promocao"
     ]
   },
   "menu-item#category-apparel-clothing": {
@@ -686,8 +692,61 @@
       "text": "Pimenta Biquinho"
     }
   }
-}
+},
 
 
+
+
+
+
+    "menu-item#vinagresnaturaispromocao": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Vinagres naturais",
+          "text": "Vinagres naturais"
+        }
+      }
+    },
+
+    
+    "menu-item#azeitespromocao": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Azeites",
+          "text": "Azeites"
+        }
+      }
+    },
+
+    
+    "menu-item#kitsspromocao": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Kits",
+          "text": "Kits"
+        }
+      }
+    }
  
 }
