@@ -44,6 +44,13 @@
     }
   },
 
+  "rich-text#fretegratis-mobile": {
+    "props": {
+      "text": "Frete Grátis SP para compras acima de R$ 300,00 | Consulte Condições*",
+      "blockClass": "barra-azul-frete-mobile"
+    }
+  },
+
 
   "flex-layout.col#spacer": {
     "props": {
@@ -116,7 +123,7 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": ["rich-text#fretegratis-mobile","sticky-layout#1-mobile","search-bar"]
   },
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
@@ -124,6 +131,7 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
+      "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
@@ -142,22 +150,236 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-vinagres",
+      "menu-item#category-sumo-de-limao",
+     // "menu-item#category-molhos",
+     // "menu-item#category-conservas",
+
+      "vtex.menu@2.x:menu#molhosmobile",
+      "vtex.menu@2.x:menu#conservasmobile",
+
+
+      "menu-item#category-azeites",
+      "menu-item#category-pates",
+      "menu-item#category-temperos",
+      "menu-item#category-kits",
+      "menu-item#category-promocao",
+
+     "vtex.menu@2.x:menu#promocaomobile"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
 
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#molhosmobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-molhos-mobile"
+  },
+  "children": [
+   
+    "menu-item#molhos-mobile"
+  ]
+},
+
+"menu-item#molhos-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Molhos",
+      "text": "Molhos"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#molhos"]
+},
+"vtex.menu@2.x:submenu.accordion#molhos": {
+  "children": ["vtex.menu@2.x:menu#footer-molhos-mobile"]
+},
+
+"vtex.menu@2.x:menu#footer-molhos-mobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#molhos-para-todas-as-ocasioes",
+      "menu-item#molhos-condimentos",
+      "menu-item#molhos-lanches",
+      "menu-item#molhos-saladas",
+      "menu-item#molhos-premium"
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#conservasmobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-conservas-mobile"
+  },
+  "children": [
+   
+    "menu-item#conservas-mobile"
+  ]
+},
+
+"menu-item#conservas-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Conservas",
+      "text": "Conservas"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#conservas"]
+},
+"vtex.menu@2.x:submenu.accordion#conservas": {
+  "children": ["vtex.menu@2.x:menu#footer-conservas-mobile"]
+},
+
+"vtex.menu@2.x:menu#footer-conservas-mobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#conservassabor-e-praticidade",
+    "menu-item#conservas-alcaparras",
+    "menu-item#conservas-azeitonas",
+    "menu-item#conservas-cebolinha",
+    "menu-item#conservas-champignon",
+    "menu-item#conservas-palmitos",
+    "menu-item#conservas-pepino",
+    "menu-item#conservas-picles",
+    "menu-item#conservas-pimenta-biquinho"
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#promocaomobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-promocao-mobile"
+  },
+  "children": [
+   
+    "menu-item#promocao-mobile"
+  ]
+},
+
+"menu-item#promocao-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Promoções",
+      "text": "Promoções"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#promocao"]
+},
+"vtex.menu@2.x:submenu.accordion#promocao": {
+  "children": ["vtex.menu@2.x:menu#footer-promocao-mobile"]
+},
+
+"vtex.menu@2.x:menu#footer-promocao-mobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#vinagresnaturaispromocao",
+    "menu-item#azeitespromocao",
+    "menu-item#kitsspromocao"
+ 
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "https://t76496.vtexassets.com/arquivos/logo-castelo-io.png",
+      "width": "105",
+      "height": "58"
     }
   }
 }
