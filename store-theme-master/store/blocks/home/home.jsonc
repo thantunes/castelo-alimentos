@@ -5,6 +5,7 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
+      "slider-layout#deals-mobile",
       "__fold__",
 
 
@@ -61,9 +62,43 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
     }
   },
+
+
+
+
+
+
+  "slider-layout#deals-mobile": {
+    "children": [
+      "rich-text#deal1",
+      "rich-text#deal2",
+      "rich-text#deal3",
+      "rich-text#deal4"
+
+
+    ],
+    "props": {
+      "blockClass": "dealsmobile",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+       
+      }
+    }
+  },
+
+
+
+
+
+
 
   "rich-text#shelf-title": {
     "props": {
@@ -83,6 +118,10 @@
   },
   "slider-layout#demo-products": {
     "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
@@ -91,6 +130,7 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
+      
     }
   },
 
@@ -162,6 +202,14 @@
     "children": ["slider-layout#homecategorias"],
     "props": {
       "height": 650,
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+    
      
       "images": [
         {
