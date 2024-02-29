@@ -392,9 +392,23 @@
   },
   "flex-layout.col#menu-molhos-2": {
     "children": [
-      "info-card#home"
+      "image#promocionalmenu1"
     ]
   },
+
+
+
+
+  "image#promocionalmenu1": {
+    "props": {
+      "src": "/arquivos/banner-promocional-da-categorai.png",
+      "blockClass":"promocionalmenu"
+     
+    }
+  },
+
+
+
   "vtex.menu@2.x:menu#molhos": {
     "props": {
       "orientation": "vertical"
@@ -530,9 +544,22 @@
 },
 "flex-layout.col#menu-conservas-2": {
   "children": [
-    "info-card#home"
+    "image#promocionalmenu2"
   ]
 },
+
+
+
+"image#promocionalmenu2": {
+  "props": {
+    "src": "/arquivos/banner-promocional-da-categorai.png",
+    "blockClass":"promocionalmenu"
+   
+  }
+},
+
+
+
 "vtex.menu@2.x:menu#conservas": {
   "props": {
     "orientation": "vertical"
