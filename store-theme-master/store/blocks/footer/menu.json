@@ -317,16 +317,17 @@
 
   "menu-item#clothing-mobile": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-clothing-mobile",
       "type": "custom",
       "iconId": null,
+      "blockClass":"menu-titulo-mobile-item-footer",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Institucional",
+        "text": "Institucional"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -340,18 +341,24 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#meuspedidos",
-      "menu-item#minhaconta",
-      "menu-item#comprasegura",
-      "menu-item#atendimento"
+      "menu-item#sobrenos",
+      "menu-item#responsabilidadesocial",
+      "menu-item#encontreumrepresentanta",
+      "menu-item#fretegratis",
+      "menu-item#formasdepagamento",
+      "menu-item#trabalhenacastelo",
+      "menu-item#duvidasfrequentes",
+      "menu-item#compliance",
+      "menu-item#canaldedenuncias"
     ]
   },
 
   "menu-item#decoration-mobile": {
     "props": {
+      "blockClass":"menu-titulo-mobile-item-footer",
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Área do cliente",
+        "text": "Área do cliente"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
@@ -365,17 +372,21 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#meuspedidos",
+      "menu-item#minhaconta",
+      "menu-item#comprasegura",
+      "menu-item#atendimento"
     ]
   },
 
   "menu-item#sale-mobile": {
     "props": {
+      "blockClass":"menu-titulo-mobile-item-footer",
       "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Funcionamento Loja de Fábrica",
+        "text": "Funcionamento Loja de Fábrica"
+      
+
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
@@ -389,9 +400,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      
+    
+      "rich-text#funcionamento-loja-fabrica-seg-sex",
+      "rich-text#funcionamento-loja-fabrica-sabado",
+      "rich-text#funcionamento-loja-fabrica-fone",
+      "rich-text#funcionamento-loja-fabrica-end"
+
     ]
   },
 
