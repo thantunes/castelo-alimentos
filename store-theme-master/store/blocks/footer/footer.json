@@ -37,6 +37,14 @@
 },
   
 
+"flex-layout.row#logo-footer":{
+
+  "children": ["flex-layout.col#logo-footer"],
+  "props": {
+    "blockClass": "logo-mobile-footer"
+  }
+},
+
 
   "flex-layout.col#logo-footer": {
     "props": {
@@ -137,7 +145,7 @@
   },
 
 
- 
+
 
   "flex-layout.col#institucional": {
     "props": {
@@ -148,6 +156,15 @@
       "vtex.menu@2.x:menu#Products"
     
     ]
+  },
+
+
+  "flex-layout.row#fale-conosco":{
+
+    "children": [ "flex-layout.col#fale-conosco"],
+    "props": {
+      "blockClass": "footer-fale-conosco-mobile"
+    }
   },
 
 
@@ -194,6 +211,7 @@
 
       "text": "Área do cliente",
       "blockClass": "footer-area-do-cliente-title"
+ 
     }
   },
 
@@ -294,6 +312,14 @@
   },
 
 
+  "flex-layout.row#formas-de-pagemanto":{
+    "children": [ "flex-layout.col#formas-de-pagemanto"],
+    "props": {
+      "blockClass": "formas-de-pagamento-mobila"
+    }
+
+  },
+
 
   "flex-layout.col#formas-de-pagemanto":{
     "children": ["rich-text#formas-de-pagamento-title","image#formas-de-pagamento-footer"],
@@ -319,6 +345,13 @@
   },
 
 
+  "flex-layout.row#seguranca-parceiro-mobile":{
+    "children": ["flex-layout.col#parceiro","flex-layout.col#seguranca"],
+    "props": {
+      "blockClass": "parceiroseguranca-footer-mobile"
+    }
+  },
+
 
   "flex-layout.col#parceiro":{
     "children": ["rich-text#formas-de-parceiro-title","image#formas-de-parceiro-footer"],
@@ -342,7 +375,6 @@
       "blockClass": "storePrint"
     }
   },
-
 
 
 
@@ -386,6 +418,9 @@
     }
   },
 
+
+
+
   "flex-layout.row#footer-3-desktop": {
     "children": ["rich-text#footer",  "flex-layout.row#devs"],
     "props": {
@@ -404,7 +439,10 @@
     "children": [
       "image#vtex",
       "image#evision"
-    ]
+    ],
+    "props": {
+      "blockClass": "devs-mobile"
+    }
 
   },
 
@@ -432,8 +470,14 @@
   "footer-layout.mobile": {
     "children": [
       "newsletter",
+      "flex-layout.row#logo-footer",
+      "flex-layout.row#fale-conosco",
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#formas-de-pagemanto",
+
+      "flex-layout.row#seguranca-parceiro-mobile",
+
+      "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -460,7 +504,8 @@
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 4,
+      "blockClass": "footer-institucional-area"
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
   },
