@@ -79,6 +79,11 @@
             margin-top: -15px
     }
 
+    :global(.vtex-rich-text-0-x-paragraph--footer-email-atendimento){
+
+        margin-bottom: 0;
+    }
+
 
     :global(.vtex-login-2-x-container) 
     :global(.vtex-button):hover {background-color:transparent!important;}
@@ -279,7 +284,7 @@
 
     :global(.vtex-flex-layout-0-x-flexRow--payment-methods)
     :global(.vtex-store-components-3-x-container){
-        max-width: 1270px;
+        max-width: 1320px;
         margin: auto;
 
     }
@@ -471,7 +476,7 @@ font-size:12px;
 }
 
 :global(.vtex-store-footer-2-x-footerLayout)
-:global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap){    color: #fff!important;}
+:global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap){    color: #fff}
 
 :global(.vtex-flex-layout-0-x-flexRow--menu-row){
     background: #001A57;
@@ -1088,5 +1093,114 @@ v:global(.tex-store-components-3-x-currencyContainer)
 :global(.vtex-rich-text-0-x-strong--deals) {display: block!important;}
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer){    padding-bottom: 30px}
 
+/* ------------------ END HOME ------------------------- */
+
+/* ------------------ FOOTER ------------------------- */
+:global(.vtex-store-components-3-x-newsletter)
+:global(.vtex-store-components-3-x-container){
+    padding: 0px !important;
+
 }
+
+
+:global(.vtex-store-components-3-x-newsletter)
+:global(.vtex-store-components-3-x-label){
+    padding-top: 30px;
+    font-size: 16px;
+    max-width: 90%;
+    margin: auto;
+
+}
+
+:global(.vtex-store-components-3-x-newsletter)
+:global(.vtex-store-components-3-x-inputGroup){    flex-direction: column;    max-width: 90%;
+    margin: auto;}
+
+    :global(.vtex-store-components-3-x-newsletter)
+    :global(.vtex-store-components-3-x-inputGroup)
+    :global(.vtex-button){    width: 100%;}
+
+
+
+    :global(.vtex-store-components-3-x-newsletter) 
+    :global(.vtex-button__label) {
+   
+        width: 80%;
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--logo-mobile-footer){
+
+        background: #001A57;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--logo-mobile-footer)
+    :global(.vtex-store-components-3-x-logoImage){
+
+        margin: auto;
+        display: block;
+    }
+
+
+    :global(.vtex-flex-layout-0-x-flexRow--footer-fale-conosco-mobile){
+        background: #001A57;
+        margin-top: -1px;
+
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--footer-institucional-area){
+        background: #001A57;
+        margin-top: -6px;
+
+    }
+
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--parceiroseguranca-footer-mobile){
+        display: flex;
+
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--formas-de-pagamento-mobila){
+
+        background: #001A57;
+        margin-top: -12px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--parceiroseguranca-footer-mobile){
+
+        background: #001A57;    margin-top: -10px;
+    }
+
+    :global(.vtex-menu-2-x-menuContainerNav)
+    :global(.vtex-menu-2-x-styledLinkContent--menu-titulo-mobile-item-footer){
+
+        color: #C4D600 !important;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+    }
+:global(.vtex-menu-2-x-accordionIcon.vtex-menu-2-x-accordionIcon--menu-titulo-mobile-item-footer.vtex-menu-2-x-accordionIcon--isOpen.vtex-menu-2-x-accordionIcon--menu-titulo-mobile-item-footer--isOpen.ml3.c-muted-2),
+    :global(.vtex-menu-2-x-accordionIcon.vtex-menu-2-x-accordionIcon--menu-titulo-mobile-item-footer.vtex-menu-2-x-accordionIcon--isClosed.vtex-menu-2-x-accordionIcon--menu-titulo-mobile-item-footer--isClosed.ml3.c-muted-2) {
+        color: #C4D600 !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--devs-mobile){
+
+        display: flex;
+    }
+
+/* ------------------ END - FOOTER ------------------------- */
+
+
+}
+
+
+
+
+
 /* ----------------------- END - MOBILE------------------------------*/
