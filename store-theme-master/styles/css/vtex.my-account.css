@@ -51,6 +51,14 @@
     display: none;
 }
 
+:global(.vtex-rich-text-0-x-wrapper--barra-azul-frete-mobile){background-color: #03044e;    width: 100%;}
+
+:global(.vtex-rich-text-0-x-paragraph--barra-azul-frete-mobile){    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;}
+
+
 :global(.vtex-minicart-2-x-minicartIconContainer){ background-image: url(/arquivos/sacola.png);
     width: 21px;
     height: 24px;
@@ -974,4 +982,111 @@ v:global(.tex-store-components-3-x-currencyContainer)
         color: #000;
     }
 
+
+    :global(.bg-emphasis) {
+        background-color: #C4D600;
+    }
+
 /* ---------------- END PÁGINA DE DEPARTAMENTO ---------------------*/
+
+@media (min-width: 780px) {
+    :global(.vtex-slider-layout-0-x-sliderTrack--dealsmobile){display:none;}
+}
+/* -----------------------MOBILE------------------------------*/
+@media (max-width: 780px) {
+
+/*----------------------- HEADER---------------------------------*/
+
+:global(.vtex-login-2-x-container) {margin-right: -30px;}
+:global(.vtex-rich-text-0-x-container--shelfTitle) {justify-content: center !important;text-align: center !important;}
+:global(.vtex-rich-text-0-x-headingLevel2--shelfTitle){font-size: 30px;}
+:global(.vtex-flex-layout-0-x-flexCol--bloco-bt-comprar-quantidade-vitrine) {opacity: 1!important;}
+:global(.vtex-flex-layout-0-x-flexCol--productRating) {margin-bottom: 0!important;}
+:global(.vtex-slider-layout-0-x-slide--shelf) {padding-left: 0px;padding-right: 0px;}
+:global(.vtex-menu-2-x-menuContainerNav){    width: 100%;}
+
+:global(.vtex-menu-2-x-submenuAccordion)
+:global(.vtex-menu-2-x-menuContainer)
+:global(.vtex-menu-2-x-menuItem)
+:global(.vtex-menu-2-x-styledLinkContent){font-size: 14px;}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+    min-width: inherit!important;
+    padding: 0px 10px 8px 10px!important;
+}
+:global(.vtex-store-drawer-0-x-menuIcon){    color: #001A57;}
+
+:global(.vtex-search-result-3-x-buttonShowMore)
+:global(.vtex-button){
+
+    background-color: #C4D600;
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+:global(.vtex-search-result-3-x-filterPopupTitle) {
+    font-size: 12px;
+}
+:global(.vtex-search-result-3-x-orderByButton){
+    background-color: transparent;
+
+}
+
+:global(.vtex-tab-layout-0-x-container--product)
+:global(.vtex-tab-layout-0-x-listContainer){    flex-direction: column;}
+
+:global(.vtex-tab-layout-0-x-listItem--botao-descricao-pdp)
+:global(.vtex-button),
+:global(.vtex-tab-layout-0-x-listItem--botao-espeficicacao-pdp)
+:global(.vtex-button),
+:global(.vtex-tab-layout-0-x-listItem--botao-info-adicionais-pdp) 
+:global(.vtex-button) {width: 90%;}
+
+
+
+
+:global(.vtex-tab-layout-0-x-listItem--botao-descricao-pdp)
+:global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listItem--botao-espeficicacao-pdp)
+:global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listItem--botao-info-adicionais-pdp) 
+:global(.vtex-button__label) {justify-content: left;}
+
+
+
+:global(.vtex-store-components-3-x-shippingContainer) 
+:global(.vtex-input-prefix__group) {
+    width: 95%;
+    border: 1px solid #000;
+}
+
+
+:global(.render-route-store-product)
+:global(.vtex-tab-layout-0-x-contentContainer){
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 95%;
+
+}
+
+
+/*----------------------- END - HEADER---------------------------------*/
+
+/* ------------------ HOME ------------------------- */
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {padding-left: 25px!important;padding-right: 25px!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-bt-comprar-quantidade-vitrine){display: flex;flex-direction: row;}
+:global(.vtex-flex-layout-0-x-flexCol--banners-home-baixo-banner-image),
+:global(.vtex-flex-layout-0-x-flexCol--banners-home-baixo2-banner-image){padding-bottom: 10px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--deals){display:none;}
+:global(.vtex-rich-text-0-x-strong--deals) {display: block!important;}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer){    padding-bottom: 30px}
+
+}
+/* ----------------------- END - MOBILE------------------------------*/
