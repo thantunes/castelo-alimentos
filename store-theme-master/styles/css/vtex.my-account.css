@@ -1083,6 +1083,20 @@ v:global(.tex-store-components-3-x-currencyContainer)
 
 /*----------------------- END - HEADER---------------------------------*/
 
+/*------------------ INSTITUCIONAIS -------------------*/
+
+:global(.vtex-flex-layout-0-x-flexCol--intitucionalLinks-container){
+
+    margin-right: 0px!important;
+    margin-bottom: 25px!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--InstitucionalContent) {
+    margin-top: 20px!important;
+}
+
+/*------------------ END INSTITUCIONAIS -------------------*/
+
 /* ------------------ HOME ------------------------- */
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {padding-left: 25px!important;padding-right: 25px!important;}
@@ -1204,3 +1218,106 @@ v:global(.tex-store-components-3-x-currencyContainer)
 
 
 /* ----------------------- END - MOBILE------------------------------*/
+
+
+/* ---------------------------- INSTITUCIONAIS -----------------------*/
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--InstitucionalContent)
+:global(.vtex-store-components-3-x-container){ max-width: 1340px; margin: auto;}
+
+:global(.vtex-flex-layout-0-x-flexCol--intitucionalLinks-container){    min-width: 250px;
+    background-color: #fff;
+    padding: 0px 20px;
+    border-radius:10px;
+    margin-right: 28px;     padding-top: 40px; }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--InstitucionalContent){
+
+        margin-top: 95px;
+    }
+
+    :global(.vtex-rich-text-0-x-wrapper--InstitucionalContentText){    background-color: #fff;
+        padding: 0px 30px;
+        border-radius: 10px;}
+
+        :global(.vtex-rich-text-0-x-link--InstitucionalLink){
+
+            color: #757575;
+            font-family: Roboto, sans-serif !important;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        :global(.vtex-rich-text-0-x-paragraph--InstitucionalLink){
+            color: #000;
+            font-family: 'Roboto Slab', serif;
+            font-size: 16px;
+            text-decoration:none;
+            line-height: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        :global(.vtex-rich-text-0-x-paragraph--InstitucionalTituloLink){
+            color: #001A57;
+            font-family: 'Roboto Slab', serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500 !important;
+            line-height: normal;
+            text-align: left;
+            /* margin-top: 60px; */
+            /* border-top: 1px solid #ccc; */
+            width: 100%;
+            display: block;
+            text-transform: uppercase;
+            margin: 10px 0px;
+
+        }
+
+
+        :global(.vtex-rich-text-0-x-paragraph--InstitucionalContentText){
+            color: #757575;
+            font-family: Roboto, sans-serif !important;
+            text-decoration: none;
+            font-size: 16px;
+
+        }
+
+        :global(.vtex-rich-text-0-x-container--InstitucionalTituloLink){
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        :global(.vtex-rich-text-0-x-headingLevel1--InstitucionalContentText){
+            color: #001A57;
+            font-family: 'Roboto Slab', serif;
+            font-size: 36px;
+            margin-top: 42px;
+            text-transform: uppercase;
+
+
+        }
+
+
+        :global(.vtex-rich-text-0-x-headingLevel2--InstitucionalContentText) {
+            color: #001A57;
+            font-family: 'Roboto Slab', serif;
+            font-size: 18px;
+            margin-top: 42px;
+        }
+
+        :global(.vtex-rich-text-0-x-listItem--InstitucionalContentText){
+
+            color: #757575;
+            font-family: Roboto, sans-serif !important;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+/* ---------------------------- END-  INSTITUCIONAIS -----------------------*/
