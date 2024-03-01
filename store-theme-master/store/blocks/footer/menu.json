@@ -28,7 +28,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/institucional/quem-somos",
         "noFollow": false,
         "tagTitle": "Sobre nós",
         "text": "Sobre nós"
@@ -43,7 +43,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/institucional/responsabilidade-social",
         "noFollow": false,
         "tagTitle": "Responsabilidade Social",
         "text": "Responsabilidade Social"
@@ -58,7 +58,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/institucional/representantes-comerciais",
         "noFollow": false,
         "tagTitle": "Encontre um Representante",
         "text": "Encontre um Representante"
@@ -73,7 +73,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Institucional/politica-entrega",
         "noFollow": false,
         "tagTitle": "Frete Grátis - Consulte Condições",
         "text": "Frete Grátis - Consulte Condições"
@@ -93,7 +93,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Institucional/duvidasfrequentes",
         "noFollow": false,
         "tagTitle": "Dúvidas Frequentes",
         "text": "Dúvidas Frequentes"
@@ -111,7 +111,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Institucional/formas-de-pagamento",
         "noFollow": false,
         "tagTitle": "Formas de Pagamento",
         "text": "Formas de Pagamento"
@@ -130,7 +130,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Institucional/trabalhe-na-castelo",
         "noFollow": false,
         "tagTitle": "Trabalhe na Castelo",
         "text": "Trabalhe na Castelo"
@@ -147,7 +147,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Institucional/compliance",
         "noFollow": false,
         "tagTitle": "Compliance",
         "text": "Compliance"
@@ -163,8 +163,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://www.contatoseguro.com.br/casteloalimentos",
         "noFollow": false,
         "tagTitle": "Canal de Denúncias",
         "text": "Canal de Denúncias"
