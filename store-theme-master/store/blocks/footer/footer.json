@@ -152,10 +152,19 @@
       "verticalAlign": "top"
     },
     "children": [
-      "rich-text#faleconosco-footer-title",
+      "rich-text#institucional-footer-title",
       "vtex.menu@2.x:menu#Products"
     
     ]
+  },
+
+ 
+
+  "rich-text#institucional-footer-title": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "footer-fale-conosco"
+    }
   },
 
 
