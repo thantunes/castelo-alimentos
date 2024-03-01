@@ -1,0 +1,199 @@
+{
+    "store.custom#representantescomerciais":{
+      "blocks":[
+        "flex-layout.row#representantescomerciaisContent"
+      ]
+    },
+    "flex-layout.row#representantescomerciaisContent":{
+      "props":{
+        "blockClass":"InstitucionalContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#representantescomerciaisLinks-container",
+        "rich-text#representantescomerciaisContent"
+      ]
+    },
+    "flex-layout.col#representantescomerciaisLinks-container":{
+      "props":{
+        "blockClass":"intitucionalLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#representantescomerciaisLinks"
+      ]
+    },
+    "flex-layout.col#representantescomerciaisLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#institucional",
+        "rich-text#quemsomos",
+        "rich-text#responsabilidade-social",
+        "rich-text#representantes-comerciais",
+        "rich-text#trabalhe-na-castelo",
+        "rich-text#compliance",
+        "rich-text#canal-de-denuncias",
+        "rich-text#minha-conta-titulo",
+        "rich-text#minha-conta",
+        "rich-text#meus-pedidos",
+        "rich-text#politica-de-privacidade",
+        "rich-text#atendimento-e-suporte",
+       // "rich-text#politica-de-entrega",
+        "rich-text#politica-de-frete-gratis",
+        "rich-text#politica-de-pagamento",
+        "rich-text#perguntas-frequentes",
+        "rich-text#fale-conosco",
+        "rich-text#falar-com-sac-castelo"
+     
+      ]
+    },
+
+
+    "rich-text#institucional":{
+      "props":{
+        "text":"Institucional",
+        "blockClass":"InstitucionalTituloLink"
+      }
+    },
+
+    "rich-text#representantescomerciaisContent":{
+
+        "props":{
+            "text":"# Encontre um Representante\n\n Escolha o estado e veja o representante Castelo mais próximo de você:\n\n ##SUDESTE \n\n **SÃO PAULO** \n\n São Paulo (Zona Norte) \n Representada: Daniela (Vendedora) \n Contato: Daniela \n Telefone: (11) 9 9241-9583 \n E-mail: dverardi@casteloalimentos.com.br \n \n São Paulo (Zona Sul) \n Representada: Nice (Vendedora) \n Contato: Nice \n Telefone: (11) 9 9445-8662 \n E-mail: epereira@casteloalimentos.com.br \n \n São Paulo (Zona Leste) \n Representada: P.H Mamede Ltda \n Contato: P.H . Mamede \n Telefone: (11) 9 4024-7282 \n E-mail: apa.luciano@hotmail.com \n \n São Paulo (Zona Oeste) \n Representada: Henrique (Vendedor) \n Contato: Henrique \n Telefone: (11) 9 9444-3091 \n E-mail: hsilva@casteloalimentos.com.br \n \n São Paulo (ABC) \n Representada: Marade Cardoso \n Contato: Ademir Marade Cardoso \n Telefone: (11) 9 8206-3799 \n E-mail: marade.cardoso@gmail.com \n \n Vale do Paraíba /Litoral norte \n Representada: R.A Dinelli Ltda \n Contato: Renato Dinelli \n Telefone: (12) 9 8102-8130 \n E-mail: renatodinelli@uol.com.br \n \n Baixada Santista (Litoral Sul) \n Representada: R.S Almeida Repres.Com.Ltda \n Contato: Roberto \n Telefone: (13) 9 9782-3775 \n E-mail: rrsa_representacoes@hotmail.com \n \n Jundiaí/Campinas \n Representada: Souza & Franciscon Repr. Comercial Ltda \n Contato: Nei/ Alexandre \n Telefone: (11) 97144-5219 \n E-mail: souzafranciscon@gmail.com \n \n São Carlos \n Representada: Raipi Representações Coml. Ltda \n Contato: Raimundo \n Telefone: (19) 9 9505-0272 \n E-mail: raiedrepresenta@yahoo.com.br \n \n Bauru \n Representada: Psil Representações S/S Ltda \n Contato: Pedro Jr. \n Telefone: (14) 9 9610-9399 \n E-mail: pedro.olalves94@gmail.com \n \n Sorocaba / Boituva \n Representada: R G Boituva Representações Ltda \n Contato: Gilberto (Giba) \n Telefone: (15) 9 8118-1213 \n E-mail: giba30@rgboituva.com.br \n \n Região de Aguaí \n Representada: Abreu Representações Ltda \n Contato: Mauricio (Boneco) \n Telefone: (19) 9 9173-6666 \n E-mail: seuboneco_mauricio@hotmail.com \n \n São José do Rio Preto \n Representada: Juliano Representações Ltda \n Contato: Juliano \n Telefone: (17) 9 8125-3189 \n E-mail: julianorep@terra.com.br \n \n Ourinhos \n Representada: Marco Representações S/C Ltda \n Contato: Marco \n Telefone: (14) 9 9706-4550 \n E-mail: marco_representacoes@terra.com.br \n \n Ribeirão Preto / Franca \n Representada: Mesquita & Cherubin Ltda \n Contato: Mesquita \n Telefone: (16) 9 9236-4000 \n E-mail: mesquitavendas@uol.com.br \n \n Araçatuba \n Representada: S R V Araçatuba Ltda \n Contato: Sergio \n Telefone: (18) 9 9131-6696 \n Email: srvrepresentacoes.ata@bol.com.br \n \n ## MINAS GERAIS \n Sul de Minas Gerais \n Representada: N Chiericatt \n Contato: Alexandre \n Telefone: (35) 99220-5700 \n E-mail: chiericatto@uol.com.br \n \n Montes Claros \n Representada: Organização Santos e Moura \n Contato: Marcelo \n Telefone: (38) 9 9125-9171 \n E-mail: marcelo.smoura@yahoo.com.br \n \n Centro Oeste MG \n Representada: Maior Representações Ltda \n Contato: Geraldo Magela \n Telefone: (31) 9 9958-2043 \n E-mail: maiorep@yahoo.com.br \n \n Belo Horizonte \n Representada: Vipak Representações Ltda \n Contato: Marcelo \n Telefone: (31) 99990-1009 \n E-mail: vendas@vikarepresentacoes.com.br \n \n ## RIO DE JANEIRO \n Representada: Cial Assumpção Representações \n Contato: Anderson \n Telefone: (21) 9 9976-1909 \n E-mail: andersonassumpcao@cialassumpcao.com.br \n \n ## ESPÍRITO SANTO \n Representada: Santa Barbara Representações \n Contato: José Augusto  \n Telefone: (27) 9 9921-5656 \n E-mail: jose.pasolini@hotmail.com \n \n ## SUL \n\n ## PARANÁ \n Londrina\n Representada: Oliveira Venezian Repr. Ltda\n Contato: Ronaldo\n Telefone: (43) 9 9928-5530\n E-mail: ronaldovenezian@gmail.com\n \n Cascavel-Maringá \n Representada: Josmel Representações Ltda \n Contato: Altair/Max \n Telefone: (45) 9 9941-5657 \n E-mail: josmelrep@gmail.com \n \n Curitiba \n Representada: Hipervendas Representação \n Contato: Anderson \n Telefone: (41) 9 9202-7851 \n E-mail: acgc.50@gmail.com \n \n ## SANTA CATARINA \n Representada: Gandemas \n Contato: Anderson \n Telefone: (47) 9 8417-8261 \n E-mail: anderson@representantesul.com; pedidos@representantesul.com \n \n ## RIO GRANDE DO SUL \n Sul do RS \n Representada: Elizalde & Pinto LTDA. \n Contato: Etiene \n Telefone: (53) 9 9930-9009 \n E-mail: representacoes.ep@gmail.com \n \n POA, entorno e serra \n Representada: ASB Soluções \n Contato: Alexandre \n Telefone: (51) 98064-4038 \n Contato: bastos.solucoesprofissionais@gmail.com \n \n ## CENTRO OESTE \n\n ## DISTRITO FEDERAL \n Representada: Castelo Branco Com. Repres.\n Contato: Carlos \n Telefone: (61) 9 8182-4570 \n E-mail: castelobrancobsb@gmail.com \n \n ## MATO GROSSO \n Representada: Athos Representações Ltda  \n Contato: Natalício \n Telefone: (65) 3025-7390 \n E-mail: romanos.rep@hotmail.com \n \n ## MATO GROSSO DO SUL \n Representada: Limasa Repres. Ltda Me \n Contato: Cristiano \n Telefone: (67)9 8111-3600 \n E-mail: cristiano@limasa.com.br \n \n ## GOIÁS \n Representada: Hideraldo - Rapouzeiro & Cia \n Contato: Bruno / Gilda \n Telefone: (62) 9 9123-7554 \n E-mail: br_seixas@hotmail.com \n \n ## NORTE \n\n ## ACRE /RONDÔNIA \n Representada: Recom Comercio e Repres. Ltda \n Contato: Manuel \n Telefone: (69) 9 9214-9301 \n E-mail: ma.recom@hotmail.com \n \n ## PARÁ \n \n Belém \n Representada: Samuge Representações Ltda \n Contato: Ruy \n Telefone: (91) 3222-9282 \n E-mail: suelypereira@veloxmail.com.br \n \n ## TOCANTINS \n \n Representada: Avila & Paiva Representações \n Contato: Gilmar \n Telefone: (63) 9 8110-0758 \n E-mail: gilmar_arg@yahoo.com.br \n \n ## NORDESTE \n \n ALAGOAS/ PARAÍBA/PERNAMBUCO \n Representada: ADM Representações Ltda \n Contato: Dário \n Telefone: (82) 99914-5255 \n E-mail: darioalmeida@uol.com.br \n \n ## BAHIA \n \n Representada: Sorege Representações Ltda \n Contato: Jackson \n Telefone: (73) 9 8816-5551 \n E-mail: sorege_rep@hotmail.com \n \n ## BAHIA (REGIÃO NORTE DO ESTADO E SALVADOR)/ SERGIPE \n \n Representada: Alvares Freaza Ltda \n Contato: Dinálio \n Telefone: (71) 9 9167-0470 \n E-mail: dinalioalvares@uol.com.br \n \n ## CEARÁ \n \n Representada: R F OLIVEIRA Representações LTDA \n Contato: Rogério \n Telefone: (88) 9 9600-5251 \n E-mail: oliveira-rep@hotmail.com \n \n ## PARAÍBA \n \n Representada: ALG Representações \n Contato: Elimárcio \n Telefone: (83) 9 9609- 7878, (83) 9 9641-4471 \n E-mail: elimarciorepvenda@gmail.com \n \n ## PERNAMBUCO \n \n Representada:D.L. Representações de Produtos Alimentícios e Embalagens LTDA \n Contato: Diego \n Telefone: (81) 98144-9600 \n E-mail: contatodlrepresentacoes@gmail.com; diego_dasf@hotmail.com \n \n ## MARANHÃO \n Representada: Ferreira Soriano Repres. Ltda \n Contato: Ferreira \n Telefone: (98) 9 9131-2902 \n E-mail: jrferreirafilho@gmail.com \n \n ## RIO GRANDE DO NORTE \n Representada: M J Representações ME \n Contato: Maria José \n Telefone: (84) 99986-9171 \n E-mail: mj.representacoescomerciais@gmail.com \n \n ## FOOD SERVICE: \n Contato: Vitor Mateus (Vendas B2B, Industriais, Marca Própria) \n Telefone: (11) 9 9121-1416 \n E-mail: valmeida@casteloalimentos.com.br \n \n Contato: Edison Soares (Vendedor Cesteiro, Conveniências, Rede de Açougues, Pet Shops) \n Telefone: (12) 9 9722-5990 \n E-mail: edisonsoares.sjc@terra.com.br \n \n Contato: Juan Fontes (Distribuidoras) \n Telefone: (11) 95028-3452 \n E-mail: jfontes@casteloalimentos.com.br \n \n Contato: Ludson (Distribuidoras/CE) \n Telefone: (85) 99989-2340 \n E-mail: nslrepresentacoes@hotmail.com \n \n Contato: André Luiz (E-commerce Frubana) \n Telefone: (11) 99921-0671 \n E-mail: consultoria.andres@gmail.com \n \n ## KEY ACCOUNT: \n Contato: Edson Felipe \n Telefone: (11) 99381-8742 \n E-mail: esouza@casteloalimentos.com.br \n \n Contato: Samanta \n Telefone: (11) 9401-5743 \n E-mail: steixeira@casteloalimentos.com.br \n \n ## EXPORTAÇÃO \n \n Contato: Milene Vieira \n Telefone: (11) 4589-7059 \n Celular: (11) 9 9125-4117 \n E-mail: mvieira@casteloalimentos.com.br \n",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+
+    "rich-text#quemsomos":{
+        "props":{
+          "text":"[Sobre a Empresa](/institucional/quem-somos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#responsabilidade-social":{
+        "props":{
+          "text":"[Responsabilidade Social](/institucional/responsabilidade-social)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#representantes-comerciais":{
+        "props":{
+          "text":"[Representantes Comerciais](/institucional/representantes-comerciais)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+   
+      "rich-text#trabalhe-na-castelo":{
+        "props":{
+          "text":"[Trabalhe na Castelo](/institucional/trabalhe-na-castelo)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#compliance":{
+        "props":{
+          "text":"[Compliance](/institucional/compliance)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      
+
+      "rich-text#canal-de-denuncias":{
+        "props":{
+          "text":"[Canal de Denúncias](https://www.contatoseguro.com.br/casteloalimentos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#minha-conta-titulo":{
+        "props":{
+          "text":"Minha Conta",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+
+      "rich-text#minha-conta":{
+        "props":{
+          "text":"[Minha Conta](/_secure/Account#/profile)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#meus-pedidos":{
+        "props":{
+          "text":"[Meus Pedidos](/_secure/Account#/orders)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-privacidade":{
+        "props":{
+          "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#atendimento-e-suporte":{
+        "props":{
+          "text":"Atendimento e Suporte",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+      
+      "rich-text#politica-de-frete-gratis":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+     
+      "rich-text#politica-de-entrega":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-pagamento":{
+        "props":{
+          "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#perguntas-frequentes":{
+        "props":{
+          "text":"[Perguntas Frequentes](/institucional/politica-de-perguntas-frequentes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#fale-conosco":{
+        "props":{
+          "text":"[Fale Conosco](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#falar-com-sac-castelo":{
+        "props":{
+          "text":"[Falar com Sac Castelo](/institucional/falar-com-o-sac)",
+          "blockClass":"InstitucionalLink"
+        }
+      }
+
+      
+
+      
+
+
+  }

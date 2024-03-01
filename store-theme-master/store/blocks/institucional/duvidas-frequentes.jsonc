@@ -1,0 +1,198 @@
+{
+    "store.custom#duvidasfrequentes":{
+      "blocks":[
+        "flex-layout.row#duvidasfrequentesContent"
+      ]
+    },
+    "flex-layout.row#duvidasfrequentesContent":{
+      "props":{
+        "blockClass":"InstitucionalContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#duvidasfrequentesLinks-container",
+        "rich-text#duvidasfrequentesContent"
+      ]
+    },
+    "flex-layout.col#duvidasfrequentesLinks-container":{
+      "props":{
+        "blockClass":"intitucionalLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#duvidasfrequentesLinks"
+      ]
+    },
+    "flex-layout.col#duvidasfrequentesLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#institucional",
+        "rich-text#quemsomos",
+        "rich-text#responsabilidade-social",
+        "rich-text#representantes-comerciais",
+        "rich-text#trabalhe-na-castelo",
+        "rich-text#compliance",
+        "rich-text#canal-de-denuncias",
+        "rich-text#minha-conta-titulo",
+        "rich-text#minha-conta",
+        "rich-text#meus-pedidos",
+        "rich-text#politica-de-privacidade",
+        "rich-text#atendimento-e-suporte",
+       // "rich-text#politica-de-entrega",
+        "rich-text#politica-de-frete-gratis",
+        "rich-text#politica-de-pagamento",
+        "rich-text#perguntas-frequentes",
+        "rich-text#fale-conosco",
+        "rich-text#falar-com-sac-castelo"
+     
+      ]
+    },
+
+
+    "rich-text#institucional":{
+      "props":{
+        "text":"Institucional",
+        "blockClass":"InstitucionalTituloLink"
+      }
+    },
+
+    "rich-text#duvidasfrequentesContent":{
+
+        "props":{
+            "text":"# Dúvidas Frequentes \n\n - Como posso acompanhar meu pedido? \n Nós enviamos para o e-mail cadastrado no momento da compra as atualizações do andamento seu pedido. Se preferir, também pode consultar diretamente no nosso site, basta fazer login, acessar “Meus pedidos”, escolher o pedido que quer consultar. Você verá a data em que o pedido foi feito, qual o status do pagamento, se está com o transportador e detalhes dos itens e valor da compra.\n\n -Tem valor mínimo para compra na loja online da Castelo? \n Não tem valor mínimo para compra. \n\n - Quais são as modalidades de entrega disponíveis? \n A Castelo trabalha com as modalidades de entrega pelos Correios nas opções PAC, SEDEX e Retira na Loja (sujeito a condições de entrega disponíveis para sua região. Consulte as informações de envio no menu disponível na barra do topo do site “A Castelo vai até você” \n\n - Como faço para ganhar frete grátis na minha compra? \n A Castelo Alimentos oferece FRETE GRATUITO (Correios-PAC) conforme as seguintes condições: \n Estado SP: Frete Grátis para compras acima de R$ 300,00 \n Fora do Estado SP: Frete Grátis para compras acima de R$ 350,00 \n Consulte as informações de envio no menu disponível na barra do topo do site “A Castelo vai até você” ou no menu do rodapé do site “Frete Grátis- consulte condições” \n \n -Como faço para receber newsletter por e-mail? \n Para receber a newsletter com novidades, descontos e promoções exclusivas, clique na página inicial do site da Castelo, no final da página cadastre seu e-mail no campo disponível onde consta a informação “Mantenha-se atualizado”. Pronto, você ficará por dentro das principais novidades da Castelo! \n \n -Posso desistir, trocar ou devolver um produto que comprei pela loja online da Castelo? \n Para informações sobre o procedimento de como realizar a desistência, troca ou devolução da sua compra consulte as informações completas no menu disponível na barra do topo do site “A Castelo vai até você” \n \n -Como utilizar meu cupom de desconto? \n Em “Meu Carrinho”, no box com as informações de valores com “subtotal” e “frete” você encontrará um campo para digitar o código do cupom promocional, assim que digitar clique “ADICIONAR” para o cupom ser aplicado no pedido. \n \n -Desejo comprar os produtos Castelo em lojas físicas, onde encontrar informações sobre os pontos de venda? \n Você pode consultar a informação com nossa equipe de vendas da sua região diretamente no menu “Encontre um Representante” que está disponível na barra do topo e nas informações de rodapé do site ou através do e-mail lojavirtual@casteloalimentos.com.br \n \n -A Loja Virtual da Castelo também é canal de vendas para empresas? \n Não. A loja online da Castelo vende apenas para consumidor final (pessoa física com seu CPF) com limite 30 de unidades do mesmo produto ou o limite de 30kg por compra. Compras realizadas por pessoa jurídica devem ser feitas diretamente com a equipe comercial da Castelo (consulte contato do representante de sua região diretamente no menu “Encontre um Representante” que está disponível na barra do topo e nas informações de rodapé do site). \n \n - O que é a madre do vinagre? \n A madre do Vinagre está presente nos vinagres não filtrados e são conhecidas como as “bactérias do bem”. A madre são os sedimentos que ficam ao fundo do frasco ou como partículas gelatinosas que flutuam dentro da garrafa, são formados pelo fenômeno de polimerização e estão presentes nos vinagres mais puros e de alta qualidade. E o melhor, faz bem a saúde! \n \n - Qual a diferença entre os vinagres Não Filtrados (Naturais) e os Orgânicos? \n Para um produto ser orgânico ele precisa ter o selo de certificação que garante que o fruto não foi cultivado com agrotóxicos, no caso de um vinagre natural a produção não é 100% orgânica, mas possuem os benefícios nutricionais do fruto e contém a madre do vinagre, as chamadas bactérias do bem, que é uma aliada para a saúde. \n \n -Qual a diferença entre o Vinagre de Maçã PET, Não Filtrado (Natural) e Orgânico \n Todos os vinagres de maçã da Castelo são produzidos a partir da fruta maçã. \n O Vinagre de Maçã PET tem como matéria-prima as maçãs Gala e Fuji e durante a produção passa por um processo de filtragem e possui conservante para preservar uma aparência sem resíduos, que podem surgir por se tratar de um produto produzido a partir da fruta. \n Os Vinagres Naturais não são filtrados, não possuem corantes e nem conservantes. Possui a madre do vinagre que preserva as propriedades e benefícios presentes na maçã que auxiliam no bom funcionamento do organismo. \n O Vinagre Orgânico é produzido sem adição de corantes, conservantes ou aromatizantes. A produção orgânica permite que o fruto cresça de maneira equilibrada, sem a utilização de agrotóxicos. É filtrado. \n \n -Acidez Vinagre de Álcool e Vinagre de Álcool Concentrado \n Os Vinagres de Álcool Castelo são produzidos a partir da cana-de-açúcar. O Vinagre de Álcool Concentrado Castelo possui todos os benefícios já conhecidos do vinagre de álcool com o diferencial de ser 50% mais concentrado e possuir 6% de acidez (a versão tradicional possui 4%), o que confere ao produto maior efetividade no uso doméstico. \n \n - Você sabe a diferença entre os palmitos açaí e pupunha? \n Os Palmitos Castelo possuem qualidade reconhecida pela maciez e aproveitamento dos toletes. \n O Palmito Açaí é o mais popular e conhecido pelo seu sabor marcante, é macio, suculento e seu consumo é mais indicado para pratos frios como saladas e aperitivos. \n O Palmito Pupunha possui um sabor mais suave, é mais carnudo e mais macio se comparado ao Açaí por isso a versão em rodelas é indicada para aperitivos e entradas e o Palmito picado é indicado para pratos quentes como tortas e recheios. \n \n - Como o vinagre deve ser conservado? \n Conforme consta informação nos rótulos, todos os vinagres devem ser conservados em geladeira após aberto. O antigo hábito de manter o vinagre dentro de armários pode resultar na entrada de insetos (se não for fechado corretamente) e até ação de microorganismos e formação de borras. \n \n - Meu vinagre está estragado? \n \n Com o passar do tempo é normal precipitação do vinagre e o surgimento de borras na versão PET 750ml, isso acontece porque o produto vai “perdendo” o conservante. As borras que surgem no produto podem causar uma aparência desagradável ao produto, mas não fazem mal à saúde e contém nutrientes benéficos ao bom funcionamento do organismo. \n \n -A acidez do azeite extra-virgem é importante? \n Sim, quanto menor a acidez do azeite, mais puro é o produto e melhor é sua qualidade. Por isso, escolha o azeite que tenha acidez até 0,8%. O Azeite Extra Virgem Castelo possui 0,5% de acidez e o Azeite Extra Virgem Seleção possui 0,2% de acidez, um dos menores do mercado. Quanto mais baixa a acidez, em mais perfeito estado está a gordura do azeite, sem oxidação ou deterioração, mantendo ainda mais as propriedades benéficas ao organismo. Os azeites Castelo são importados de Portugal, são envasados na origem, são testados e possuem garantia de qualidade certificada pelo MAPA (Ministério da Agricultura, Pecuária e de Abastecimento). \n \n - Como escolher o melhor azeite \n O azeite é um produto puro, que conserva os nutrientes e as propriedades de aroma e sabor. Primeiro de tudo, ele deve ser puro, sem misturas. O vidro tem que ser escuro, para não oxidar e manter os compostos fenólicos (que são antioxidantes super potentes). Embalagens de vidro escuras preservam mais os nutrientes do que embalagens de plástico. Saiba como escolher o melhor azeite para diferentes tipos de consumo: \n \n Azeite de Oliva Castelo 500ml \n O Azeite de Oliva Castelo é extraído de azeitonas colhidas e selecionadas para oferecer o sabor e o aroma característicos dos melhores azeites, atendendo aos paladares mais exigentes. Produzido e envasado em Portugal, possui garantia de qualidade certificada pelo MAPA (Ministério da Agricultura, Pecuária e de Abastecimento). Engarrafado em frasco de vidro escuro que impede a entrada da luz e conserva as propriedades do alimento. Indicado para consumo em pratos quentes, como grelhados e alimentos fritos, pois resiste a altas temperaturas sem perder suas propriedades. Possui 1% de acidez. \n Azeite de Oliva Extra Virgem Castelo 500ml \n O Azeite de Oliva Extra Virgem Castelo é extraído de azeitonas portuguesas colhidas e selecionadas especialmente para oferecer o sabor e o aroma característicos dos melhores azeites, atendendo aos paladares mais exigentes. Acidez 0,5%. Indicado para consumo em “pratos frios” para conservar os nutrientes. \n Azeite de Oliva Extra Virgem Castelo Seleção 500ml \n O Azeite de Oliva Extra Virgem Castelo Seleção, produzido em Portugal, feito com azeitonas maduras, criteriosamente selecionadas e extraído a frio para conservar as propriedades dos frutos. De textura suave e aroma marcante, este azeite se caracteriza pelo sabor frutado e leve picância persistente. Trata-se de tempero ideal para massas, risotos, saladas verdes, queijos delicados, pescados, frutos do mar e legumes salteados. O Azeite de Oliva Seleção tem acidez de apenas 0,2%, contra 0,5% e 1% da maioria dos produtos da categoria. A acidez baixa revela que a gordura do azeite está em estado perfeito, sem oxidação ou deterioração, e mantém as propriedades funcionais que beneficiam o bom funcionamento do organismo. O produto é rico em betacaroteno (vitamina A) e antioxidantes, auxilia na absorção de cálcio e aumento do colesterol bom (HDL), prevenindo assim doenças cardiovasculares e degenerativas. Não contém glúten e nem gorduras saturadas, o que facilita a digestão. \n \n - O Sumo de Limão é um vinagre de limão? \n Não, o Sumo de Limão é produzido diretamente do fruto e contém o suco de aproximadamente 19 limões Taiti espremidos. O Sumo é uma versão econômica e prática do limão podendo ser utilizado em todas as preparações em substituição ao limão in natura, como no preparo de receitas salgadas, sobremesas e até bebidas. Pode ser conservado em geladeira por até 30 dias após aberto. \n \n - Níveis de picância dos Patês de Pimenta Biquinho \n Os Patês de Pimenta Biquinho da Castelo fazem parte da Linha Leve Vita que é composto por produtos que não possuem corantes, conservantes e são produzidos com ingredientes selecionados e de maneira artesanal. As quatro versões disponíveis de Patês se diferenciam pelo grau de ardência e são divididos em uma escala que vai de 0 a 6: Patê de Pimenta Biquinho Sem Conservantes Defumado Castelo - Não arde ideal para quem gosta de um sabor levemente adocicado com a sofisticação da pimenta biquinho e defumado. Na escala de padrão de picância é n° 0. \n Patê de Pimenta Biquinho Sem Conservantes Defumado Levemente Picante Castelo- É a combinação perfeita entre o adocicado da pimenta biquinho e um toque picante da Pimenta Dedo de Moça , ideal para quem gosta de picância balanceada. Na escala de padrão de picância é n° 2. Patê de Pimenta Biquinho Sem Conservantes Habanero e Alho Castelo- A pimenta habanero e o alho conferem ao produto um delicioso tempero com picância e aroma na medida certa. Na escala de padrão de picância é n° 4. \n Patê de Pimenta Biquinho Sem Conservantes Dedo-De-Moça Castelo- É a combinação perfeita entre o adocicado da pimenta biquinho e a picância da Pimenta Dedo de Moça, ideal para quem gosta de sentir o sabor acentuado da pimenta. Na escala de padrão de picância é n° 6. \n \n - Encontrei o Vinagre 6% exposto na área de higienização e não alimentação, está correto? \n O posicionamento do produto no ponto de venda é um critério do lojista que conhece o perfil de compra de seus consumidores. O Vinagre é seguro para alimentação, mas por conta da maior acidez recomendamos seu uso na produção de conservas ou diluído em água, em caso de consumidores com o paladar mais sensível. Temos ciência dos usos populares do vinagre, mas em respeito à legislação que rege a indústria de alimentos não podemos orientar utilizações alheias à alimentação. \n \n -Mudança de gramaturas nas conservas \n Algumas conservas da Castelo sofrerão alteração na gramatura, confira as mudanças adotadas: \n Gramatura do Champignon pouch era de 100g agora é 80g \n Gramatura da Azeitona Com Caroço pouch era de 100g agora é 80g \n Gramatura da Azeitona Sem Caroço pouch era de 120g agora é 150g \n Gramatura da Azeitona Fatiada pouch era de 120g agora é 150g \n Gramatura da Azeitona Sem Caroço Vidro era de 155g agora é 150g \n Gramatura da Cebolinha anterior era de 200g agora é 190g \n Gramatura do Picles era de 200g agora é 300g",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+
+    "rich-text#quemsomos":{
+        "props":{
+          "text":"[Sobre a Empresa](/institucional/quem-somos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#responsabilidade-social":{
+        "props":{
+          "text":"[Responsabilidade Social](/institucional/responsabilidade-social)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#representantes-comerciais":{
+        "props":{
+          "text":"[Representantes Comerciais](/institucional/representantes-comerciais)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+   
+      "rich-text#trabalhe-na-castelo":{
+        "props":{
+          "text":"[Trabalhe na Castelo](/institucional/trabalhe-na-castelo)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#compliance":{
+        "props":{
+          "text":"[Compliance](/institucional/compliance)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      
+
+      "rich-text#canal-de-denuncias":{
+        "props":{
+          "text":"[Canal de Denúncias](https://www.contatoseguro.com.br/casteloalimentos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#minha-conta-titulo":{
+        "props":{
+          "text":"Minha Conta",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+
+      "rich-text#minha-conta":{
+        "props":{
+          "text":"[Minha Conta](/_secure/Account#/profile)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#meus-pedidos":{
+        "props":{
+          "text":"[Meus Pedidos](/_secure/Account#/orders)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-privacidade":{
+        "props":{
+          "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#atendimento-e-suporte":{
+        "props":{
+          "text":"Atendimento e Suporte",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+     
+      "rich-text#politica-de-frete-gratis":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#politica-de-entrega":{
+        "props":{
+          "text":"[Frete Grátis- Consulte Condições](/institucional/frete-gratis-condicoes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-pagamento":{
+        "props":{
+          "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#perguntas-frequentes":{
+        "props":{
+          "text":"[Perguntas Frequentes](/institucional/politica-de-perguntas-frequentes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#fale-conosco":{
+        "props":{
+          "text":"[Fale Conosco](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#falar-com-sac-castelo":{
+        "props":{
+          "text":"[Falar com Sac Castelo](/institucional/falar-com-o-sac)",
+          "blockClass":"InstitucionalLink"
+        }
+      }
+
+      
+
+      
+
+
+  }

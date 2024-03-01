@@ -1,0 +1,200 @@
+{
+    "store.custom#responsabilidadesocial":{
+      "blocks":[
+        "flex-layout.row#responsabilidadeContent"
+      ]
+    },
+    "flex-layout.row#responsabilidadeContent":{
+      "props":{
+        "blockClass":"InstitucionalContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#responsabilidadeLinks-container",
+        "rich-text#responsabilidadesocialContent"
+      ]
+    },
+    "flex-layout.col#responsabilidadeLinks-container":{
+      "props":{
+        "blockClass":"intitucionalLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#responsabilidadeLinks"
+      ]
+    },
+    "flex-layout.col#responsabilidadeLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#institucional",
+        "rich-text#quemsomos",
+        "rich-text#responsabilidade-social",
+        "rich-text#representantes-comerciais",
+        "rich-text#trabalhe-na-castelo",
+        "rich-text#compliance",
+        "rich-text#canal-de-denuncias",
+        "rich-text#minha-conta-titulo",
+        "rich-text#minha-conta",
+        "rich-text#meus-pedidos",
+        "rich-text#politica-de-privacidade",
+        "rich-text#atendimento-e-suporte",
+      //  "rich-text#politica-de-entrega",
+        
+      "rich-text#politica-de-frete-gratis",
+        "rich-text#politica-de-pagamento",
+        "rich-text#perguntas-frequentes",
+        "rich-text#fale-conosco",
+        "rich-text#falar-com-sac-castelo"
+     
+      ]
+    },
+
+
+    "rich-text#institucional":{
+      "props":{
+        "text":"Institucional",
+        "blockClass":"InstitucionalTituloLink"
+      }
+    },
+
+    "rich-text#responsabilidadesocialContent":{
+
+        "props":{
+            "text":"# Responsabilidade Social \n \n A história da Castelo Alimentos foi escrita tendo como pilares a qualidade absoluta, a inovação tecnológica e a responsabilidade empresarial. Quando os novos sócios levaram a companhia para Jundiaí, no fim da década de 1960, sabiam que a empresa tinha potencial para transformar a cidade, gerar empregos e impactar positivamente a região. Esse compromisso com a sociedade e com o meio ambiente segue inabalável.\n \n Utilizando todas as leis de incentivo disponíveis — e indo além delas, a Castelo Alimentos já beneficiou milhares pessoas em Jundiaí e em outras cidades do país. Só em 2020, foram repassados cerca de R$ 400 mil para entidades com ação em educação, esporte, saúde e cultura. O valor vem aumentando ao longo dos anos e é 20% superior ao investimento em 2019, via Lei Rouanet; Fundo Social de Solidariedade; Fundo Municipal da Criança e do Adolescente, e Programa de Ação Cultural (Proac). \n \n Entre as entidades beneficiadas em Jundiaí estão o Projeto Guri, a Orquestra do Bem e o Grupo em Defesa da Criança Com Câncer (Grendacc). A Castelo apoia o Hospital Boldrini, em Campinas; o Hospital Pequeno Príncipe, de Curitiba, e o Centro de Pesquisa sobre o Genoma Humano e Células-Tronco, da Universidade de São Paulo (USP). Durante a pandemia da Covid-19, a Castelo se sensibilizou e produziu 160 mil frascos de álcool gel e 3 mil litros de álcool líquido 70%, beneficiando 106 instituições. \n \n A empresa é uma das apoiadoras da Fundação Abrinq desde 1999, além de incentivar a prática de atividades esportivas e a adoção de hábitos de vida saudáveis. Todos os anos, também apoia e promove diversas competições e programas esportivos, como corrida, natação e triatlon. \n \n Também está no DNA da empresa buscar soluções tecnológicas que promovam a sustentabilidade e preservem o meio ambiente. A Castelo foi pioneira ao colocar no mercado novas soluções para as embalagens de vidro e hoje produz 100% de suas garrafas 750ml e 500ml com PET com baixa concentração de resina. As caixas de papelão são feitas de fibra de madeira e de cana de açúcar. A planta industrial na Anhanguera foi totalmente adequada para tratar efluentes e retirar a acidez dos vapores emitidos na atmosfera. \n \n Aquela empresa que começou nos fundos de uma pensão no Brás cresceu sem perder sua essência: o foco no sabor e na qualidade; a busca por inovação e tecnologia; a responsabilidade com as pessoas, dos funcionários ao consumidor; e a paixão pelo que faz. São 115 anos de transformações que fazem da Castelo Alimentos uma das marcas preferidas do Brasil, e é com muito orgulho que a empresa leva alegria para a mesa de tantos brasileiros. Uma história centenária que ainda escreverá novos capítulos de muito sabor.",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+
+    "rich-text#quemsomos":{
+        "props":{
+          "text":"[Sobre a Empresa](/institucional/quem-somos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#responsabilidade-social":{
+        "props":{
+          "text":"[Responsabilidade Social](/institucional/responsabilidade-social)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#representantes-comerciais":{
+        "props":{
+          "text":"[Representantes Comerciais](/institucional/representantes-comerciais)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+   
+      "rich-text#trabalhe-na-castelo":{
+        "props":{
+          "text":"[Trabalhe na Castelo](/institucional/trabalhe-na-castelo)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#compliance":{
+        "props":{
+          "text":"[Compliance](/institucional/compliance)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      
+
+      "rich-text#canal-de-denuncias":{
+        "props":{
+          "text":"[Canal de Denúncias](https://www.contatoseguro.com.br/casteloalimentos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#minha-conta-titulo":{
+        "props":{
+          "text":"Minha Conta",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+
+      "rich-text#minha-conta":{
+        "props":{
+          "text":"[Minha Conta](/_secure/Account#/profile)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#meus-pedidos":{
+        "props":{
+          "text":"[Meus Pedidos](/_secure/Account#/orders)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-privacidade":{
+        "props":{
+          "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#atendimento-e-suporte":{
+        "props":{
+          "text":"Atendimento e Suporte",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+    
+      "rich-text#politica-de-frete-gratis":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+     
+      "rich-text#politica-de-entrega":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-pagamento":{
+        "props":{
+          "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#perguntas-frequentes":{
+        "props":{
+          "text":"[Perguntas Frequentes](/institucional/politica-de-perguntas-frequentes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#fale-conosco":{
+        "props":{
+          "text":"[Fale Conosco](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#falar-com-sac-castelo":{
+        "props":{
+          "text":"[Falar com Sac Castelo](/institucional/falar-com-o-sac)",
+          "blockClass":"InstitucionalLink"
+        }
+      }
+
+      
+
+      
+
+
+  }

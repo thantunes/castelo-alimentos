@@ -1,0 +1,198 @@
+{
+    "store.custom#fretegratis":{
+      "blocks":[
+        "flex-layout.row#fretegratisContent"
+      ]
+    },
+    "flex-layout.row#fretegratisContent":{
+      "props":{
+        "blockClass":"InstitucionalContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#fretegratisLinks-container",
+        "rich-text#fretegratisContent"
+      ]
+    },
+    "flex-layout.col#fretegratisLinks-container":{
+      "props":{
+        "blockClass":"intitucionalLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#fretegratisLinks"
+      ]
+    },
+    "flex-layout.col#fretegratisLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#institucional",
+        "rich-text#quemsomos",
+        "rich-text#responsabilidade-social",
+        "rich-text#representantes-comerciais",
+        "rich-text#trabalhe-na-castelo",
+        "rich-text#compliance",
+        "rich-text#canal-de-denuncias",
+        "rich-text#minha-conta-titulo",
+        "rich-text#minha-conta",
+        "rich-text#meus-pedidos",
+        "rich-text#politica-de-privacidade",
+        "rich-text#atendimento-e-suporte",
+       // "rich-text#politica-de-entrega",
+        "rich-text#politica-de-frete-gratis",
+        "rich-text#politica-de-pagamento",
+        "rich-text#perguntas-frequentes",
+        "rich-text#fale-conosco",
+        "rich-text#falar-com-sac-castelo"
+     
+      ]
+    },
+
+
+    "rich-text#institucional":{
+      "props":{
+        "text":"Institucional",
+        "blockClass":"InstitucionalTituloLink"
+      }
+    },
+
+    "rich-text#fretegratisContent":{
+
+        "props":{
+            "text":"# Informações de Envio \n\n ## Informações Gerais \n O prazo de entrega dos produtos adquiridos, pode variar conforme a região de entrega, além da disponibilidade e eficiência do serviço dos Correios. A contagem do prazo de entrega inicia-se após o processamento do seu pedido dois (02) dias após a identificação do pagamento). O prazo é informado em dias úteis. Considera como dias úteis de 2ª a 6ª das 8h às 18h, exceto feriados e finais de semana. Ressaltamos que os prazos dos Correios começam a contar à partir de (02) dois dias úteis após a liberação do pagamento, pois esse é o período em que seu pedido está em processamento na empresa para liberação aos Correios. \n Você poderá simular o prazo de entrega da seguinte forma: na página do produto desejado, informe o CEP e clique em calcular frete: o sistema irá apresentar as formas de envio disponíveis e o prazo aproximado. As entregas são realizadas pelos CORREIOS em todo o Brasil. Não é possível agendar data e horário. \n Em caso de Frete Grátis, a entrega será realizada via PAC (de 4 a 10 dias úteis). Lembramos que a forma de envio PAC não tem rastreamento igual ao SEDEX. Durante o rastreamento no site dos Correios aparecerá apenas a postagem e o encaminhamento para o Centro de Triagem responsável pelo envio para outras cidades/Estados, após isso irá aparecer o momento em que o correio da cidade de destino sair para entrega. \n\n ## Atendemos todo território nacional. \n ## Recebimento do Produto \n O recebimento da mercadoria pode ser realizado por terceiros, como porteiros de condomínios e familiares, desde que, assine comprovante de recebimento da mercadoria e informe documento. Para as entregas feitas pelos Correios são realizadas três tentativas de entrega do produto em dias úteis. Ocorrendo três tentativas de entrega sem sucesso o produto será devolvido para o Centro de Distribuição dos Correios da sua cidade por prazo determinado (no máximo, sete dias corridos). Excedendo esse prazo, o produto retorna para a empresa e para o reenvio haverá um novo valor de frete a ser pago. \n * Caso perceber que a embalagem foi violada ou está danificada, recusar recebimento, pois o Armazém Castelo não se responsabilizará por falta de mercadorias posteriormente. \n * Não é possível agendar data e horário para entrega. \n * Recomendamos que confira seus produtos no ato da entrega. \n\n ## Desistência / Devoluções / Trocas \n Em caso de desistência da compra, comunique ao Serviço de Atendimento ao Consumidor através do telefone 0800.771.6111 de segunda à quinta-feira das 9h às 12h e 13h às18h e sexta-feira das 9h às 12h e 13h às 17h ou através do e-mail lojavirtual@casteloalimentos.com.br. Os produtos deverão ser devolvidos em suas embalagens originais e obrigatoriamente acompanhados de sua nota fiscal. O prazo para desistência é de 7 dias corridos do recebimento do produto. \n Importante: Ao efetuar o processo de devolução/troca/desistência o cliente deverá, no verso da nota fiscal a ser devolvida/trocada, informar o motivo da devolução/troca, o nome de quem esta devolvendo, CPF e a data da devolução. Atentar-se para que os produtos estejam em suas embalagens originais e a nota fiscal seja anexada junto ao(s) produto(s) para que o processo possa ser concluído.\n\n ## Devoluções \n Em caso de devoluções por motivo que inviabilizem a entrega (endereço errado ou incompleto, destinatário ausente, falta de acesso, área de restrição etc), o frete de reenvio poderá ser cobrado. Se ao receber o produto, você resolver devolvê-lo por arrependimento, deverá fazê-lo em até sete (07) dias corridos, a contar da data de recebimento. \n As devoluções de produtos somente poderão ocorrer nas seguintes hipóteses: \n O produto não poderá ter indícios de uso. \n O produto deverá ser encaminhado na embalagem original, sem violação, acompanhado de nota fiscal, devidamente fixada no produto e todos os seus acessórios. \n As condições acima citadas deverão ser cumpridas para que o reembolso ou o estorno da transação seja efetuado. Caso seja identificada qualquer divergência ou violação do produto, não aceitaremos a devolução e devolveremos o produto ao remetente sem consulta prévia. \n Se não tivermos mais o produto em nossos estoques, você poderá optar por receber um produto similar, desde que seja de mesmo valor da mercadoria adquirida anteriormente. \n O ressarcimento será no valor integral pago pelos produtos. O estorno total do valor no cartão de crédito somente será possível se a devolução do pedido for total, mediante apresentação de nota fiscal. \n\n ## Trocas de produtos \n Caso não esteja de acordo com o seu pedido, os produtos deverão ser devolvidos ou trocados tendo em anexo nota fiscal. Consideramos também motivo de troca, se o produto chegar danificado. Neste caso, deverá ser registrada uma reclamação no Serviço de Atendimento ao Consumidor através do telefone 0800-771-6111 de segunda à quinta-feira das 9h às 12h e 13h às18h e sexta-feira das 9h às 12h e 13h às 17h ou através do e-mail lojavirtual@casteloalimentos.com.br \n A coleta do produto será realizada pela nossa prestadora de serviços que fará contato para agendar com antecedência um melhor dia e horário para realizar a coleta. O prazo da coleta são três dias úteis contando à partir do dia subsequente ao registro da reclamação. \n Se não tivermos mais o produto em nossos estoques, você poderá optar por receber um produto similar desde que seja de mesmo valor da mercadoria adquirida anteriormente. \n\n ## Troca na Loja de Fábrica Castelo \n As trocas de produtos também poderão ocorrer apenas na loja anexo à fábrica em Jundiaí/SP, atendendo ao procedimento de Troca de Produtos. \n Em caso de contato via e-mail, atentar-se que serão solicitados que os dados abaixo sejam preenchidos para que possamos atender a sua solicitação com rapidez e eficiência. \n Dados para e-mail de troca ou devolução da mercadoria(s): Nome, CPF, Número do Pedido, Número da Nota fiscal, Nome dos produtos a serem trocados ou devolvidos e Motivo da solicitação da troca ou devolução. Aviso Importante: é necessário que os produtos estejam em suas embalagens originais e a nota fiscal seja anexada junto ao produto (s) para que o processo possa ser concluído. \n\n ## Cancelamento de pedidos que ainda não foram processados \n O cancelamento de pedidos poderá ocorrer em qualquer período da solicitação. Os pedidos poderão ser cancelados, somente enquanto não for concluído o pagamento. Para viabilizar o cancelamento é obrigatório entrar em contato com Serviço de Atendimento ao Consumidor pelo telefone 0800-771-6111de segunda à quinta-feira das 9h às 12h e 13h às18h e sexta-feira das 9h às 12h e 13h às 17h. \n\n ## FRETE GRÁTIS \n A Castelo Alimentos oferece FRETE GRATUITO (Correios-PAC) conforme as seguintes condições: Estado SP: Frete Grátis para compras acima de R$ 300,00 Fora do Estado SP: Frete Grátis para compras acima de R$ 350,00 \n Atenção:\n * O prazo de entrega começa a contar após a aprovação do pagamento. Assim que seu pagamento for aprovado, você será notificado via e-mail. \n * O prazo de entrega informado inclui o prazo de processamento do pedido dentro do nosso armazém e o prazo para a realização da entrega pelos Correios. Lembramos que pedidos que contenham \n mais de um volume possam ser entregues separadamente. \n\n ## RETIRA NA LOJA DE FÁBRICA \n Realize suas compras, faça o pagamento e após três dias úteis, retire gratuitamente em nossa Loja de Fábrica Castelo, mediante apresentação de documento. \n Endereço: Avenida Professora Maria do Carmo Guimarães Pellegrini, 480–Retiro–Jundiaí/SP–CEP 13209-500 \n Horário para Retirada:\n Segunda a Sexta das 8h30 às 17h45\n Sábados das 8h30 às 15h45\n",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+
+    "rich-text#quemsomos":{
+        "props":{
+          "text":"[Sobre a Empresa](/institucional/quem-somos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#responsabilidade-social":{
+        "props":{
+          "text":"[Responsabilidade Social](/institucional/responsabilidade-social)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#representantes-comerciais":{
+        "props":{
+          "text":"[Representantes Comerciais](/institucional/representantes-comerciais)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+   
+      "rich-text#trabalhe-na-castelo":{
+        "props":{
+          "text":"[Trabalhe na Castelo](/institucional/trabalhe-na-castelo)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#compliance":{
+        "props":{
+          "text":"[Compliance](/institucional/compliance)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      
+
+      "rich-text#canal-de-denuncias":{
+        "props":{
+          "text":"[Canal de Denúncias](https://www.contatoseguro.com.br/casteloalimentos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#minha-conta-titulo":{
+        "props":{
+          "text":"Minha Conta",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+
+      "rich-text#minha-conta":{
+        "props":{
+          "text":"[Minha Conta](/_secure/Account#/profile)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#meus-pedidos":{
+        "props":{
+          "text":"[Meus Pedidos](/_secure/Account#/orders)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-privacidade":{
+        "props":{
+          "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#atendimento-e-suporte":{
+        "props":{
+          "text":"Atendimento e Suporte",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+     
+      "rich-text#politica-de-frete-gratis":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#politica-de-entrega":{
+        "props":{
+          "text":"[Frete Grátis- Consulte Condições](/institucional/frete-gratis-condicoes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-pagamento":{
+        "props":{
+          "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#perguntas-frequentes":{
+        "props":{
+          "text":"[Perguntas Frequentes](/institucional/politica-de-perguntas-frequentes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#fale-conosco":{
+        "props":{
+          "text":"[Fale Conosco](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#falar-com-sac-castelo":{
+        "props":{
+          "text":"[Falar com Sac Castelo](/institucional/falar-com-o-sac)",
+          "blockClass":"InstitucionalLink"
+        }
+      }
+
+      
+
+      
+
+
+  }
