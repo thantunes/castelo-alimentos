@@ -36,6 +36,10 @@
 
   "store.custom#compliance":{
     "path":"/Institucional/compliance"
+  },
+
+  "store.custom#falecomosac":{
+    "path":"/Institucional/fale-com-o-sac"
   }
 
  
