@@ -1,0 +1,232 @@
+{
+    "store.custom#compliance":{
+      "blocks":[
+        "flex-layout.row#complianceContent"
+      ]
+    },
+    "flex-layout.row#complianceContent":{
+      "props":{
+        "blockClass":"InstitucionalContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#complianceLinks-container",
+
+        "flex-layout.col#complianceContent"
+       
+      ]
+    },
+    "flex-layout.col#complianceLinks-container":{
+      "props":{
+        "blockClass":"intitucionalLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#complianceLinks"
+      ]
+    },
+    "flex-layout.col#complianceLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#institucional",
+        "rich-text#quemsomos",
+        "rich-text#responsabilidade-social",
+        "rich-text#representantes-comerciais",
+        "rich-text#trabalhe-na-castelo",
+        "rich-text#compliance",
+        "rich-text#canal-de-denuncias",
+        "rich-text#minha-conta-titulo",
+        "rich-text#minha-conta",
+        "rich-text#meus-pedidos",
+        "rich-text#politica-de-privacidade",
+        "rich-text#atendimento-e-suporte",
+       // "rich-text#politica-de-entrega",
+        "rich-text#politica-de-frete-gratis",
+        "rich-text#politica-de-pagamento",
+        "rich-text#perguntas-frequentes",
+        "rich-text#fale-conosco",
+        "rich-text#falar-com-sac-castelo"
+     
+      ]
+    },
+
+
+    "rich-text#institucional":{
+      "props":{
+        "text":"Institucional",
+        "blockClass":"InstitucionalTituloLink"
+      }
+    },
+
+
+    "flex-layout.col#complianceContent":{
+
+        "children":[
+            "rich-text#complianceContent",
+            "video#compliance",
+            "rich-text#complianceContent2"
+           
+          ]
+    },
+
+    "rich-text#complianceContent":{
+
+        "props":{
+            "text":"# Compliance \n \n A Castelo tem compromisso em garantir a integridade e ética em seus processos, negócios e relacionamentos. \n \n Em atendimento a diretriz do Conselho de Administração e da Direção, implementamos o nosso Programa de Integridade e Compliance (PIC) em 2022, baseado na legislação internacional e nacional, bem como em princípios universais de anticorrupção, trabalho e direitos humanos. \n \n O programa possui 5 pilares que asseguram a sua efetividade, entre eles o de “Instância Responsável”, sendo atribuído ao Comitê de Compliance o desenvolvimento, aplicação e monitoramento. \n \n O Código de Conduta Ética faz parte do programa e orienta nossos colaboradores sobre os princípios éticos da Castelo. Saiba mais, acessando nosso Código de Conduta Ética. \n \n ## Acesse o Código de Conduta Ética: \n www.ccecasteloalimentos.com.br \n \n Assista ao vídeo de lançamento do Código de Conduta Ética:",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+    "rich-text#complianceContent2":{
+
+        "props":{
+            "text":"\n\n Canal de Denúncia, em parceria com a Contato Seguro.\n\n Os registros de denúncias podem ser realizados através de ligação telefônica (24 horas por dia), site ou aplicativo. Não é necessário se identificar, sendo garantido o anonimato. \n \n **Ligação telefônica:** 0800 517 1020 \n\n ## Site Canal de Denúncias: \n\n www.contatoseguro.com.br/casteloalimentos \n Aplicativo: Contato Seguro, disponível na Apple Store e Google Play. \n\n [Código de Conduta Ética](http://www.ccecasteloalimentos.com.br/)",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+
+
+    "video#compliance": {
+        "props": {
+          "width": "100%",
+          "height": "600px",
+          "loop": false,
+          "autoPlay": true,
+          "muted": false,
+          "src": "https://www.youtube.com/watch?v=Lct9GDhozrI&t=2s",
+          "blockClass": "videoEl"
+        }
+      },
+
+    "rich-text#quemsomos":{
+        "props":{
+          "text":"[Sobre a Empresa](/institucional/quem-somos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#responsabilidade-social":{
+        "props":{
+          "text":"[Responsabilidade Social](/institucional/responsabilidade-social)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#representantes-comerciais":{
+        "props":{
+          "text":"[Representantes Comerciais](/institucional/representantes-comerciais)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+   
+      "rich-text#trabalhe-na-castelo":{
+        "props":{
+          "text":"[Trabalhe na Castelo](/institucional/trabalhe-na-castelo)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#compliance":{
+        "props":{
+          "text":"[Compliance](/institucional/compliance)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      
+
+      "rich-text#canal-de-denuncias":{
+        "props":{
+          "text":"[Canal de Denúncias](https://www.contatoseguro.com.br/casteloalimentos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#minha-conta-titulo":{
+        "props":{
+          "text":"Minha Conta",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+
+      "rich-text#minha-conta":{
+        "props":{
+          "text":"[Minha Conta](/_secure/Account#/profile)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#meus-pedidos":{
+        "props":{
+          "text":"[Meus Pedidos](/_secure/Account#/orders)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-privacidade":{
+        "props":{
+          "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#atendimento-e-suporte":{
+        "props":{
+          "text":"Atendimento e Suporte",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+     
+      "rich-text#politica-de-frete-gratis":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#politica-de-entrega":{
+        "props":{
+          "text":"[Frete Grátis- Consulte Condições](/institucional/frete-gratis-condicoes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-pagamento":{
+        "props":{
+          "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#perguntas-frequentes":{
+        "props":{
+          "text":"[Perguntas Frequentes](/institucional/politica-de-perguntas-frequentes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#fale-conosco":{
+        "props":{
+          "text":"[Fale Conosco](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#falar-com-sac-castelo":{
+        "props":{
+          "text":"[Falar com Sac Castelo](/institucional/falar-com-o-sac)",
+          "blockClass":"InstitucionalLink"
+        }
+      }
+
+      
+
+      
+
+
+  }
