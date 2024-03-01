@@ -173,6 +173,23 @@
   },
 
 
+  "menu-item#falecomosac": {
+    "props": {
+      "id": "menu-item-canaldedenuncias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/Institucional/fale-com-o-sac",
+        "noFollow": false,
+        "tagTitle": "Fale com o SAC",
+        "text": "Fale com o SAC"
+      }
+    }
+  },
+
+
 
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
@@ -349,7 +366,8 @@
       "menu-item#trabalhenacastelo",
       "menu-item#duvidasfrequentes",
       "menu-item#compliance",
-      "menu-item#canaldedenuncias"
+      "menu-item#canaldedenuncias",
+      "menu-item#falecomosac"
     ]
   },
 
