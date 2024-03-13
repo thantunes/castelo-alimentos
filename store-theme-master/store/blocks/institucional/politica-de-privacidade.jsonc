@@ -1,0 +1,198 @@
+{
+    "store.custom#politica":{
+      "blocks":[
+        "flex-layout.row#politicaContent"
+      ]
+    },
+    "flex-layout.row#politicaContent":{
+      "props":{
+        "blockClass":"InstitucionalContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#politicaLinks-container",
+        "rich-text#politicaContent"
+      ]
+    },
+    "flex-layout.col#politicaLinks-container":{
+      "props":{
+        "blockClass":"intitucionalLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#politicaLinks"
+      ]
+    },
+    "flex-layout.col#politicaLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#institucional",
+        "rich-text#quemsomos",
+        "rich-text#responsabilidade-social",
+        "rich-text#representantes-comerciais",
+        "rich-text#trabalhe-na-castelo",
+        "rich-text#compliance",
+        "rich-text#canal-de-denuncias",
+        "rich-text#minha-conta-titulo",
+        "rich-text#minha-conta",
+        "rich-text#meus-pedidos",
+        "rich-text#politica-de-privacidade",
+        "rich-text#atendimento-e-suporte",
+       // "rich-text#politica-de-entrega",
+        "rich-text#politica-de-frete-gratis",
+        "rich-text#politica-de-pagamento",
+        "rich-text#perguntas-frequentes",
+        "rich-text#fale-conosco",
+        "rich-text#falar-com-sac-castelo"
+     
+      ]
+    },
+
+
+    "rich-text#institucional":{
+      "props":{
+        "text":"Institucional",
+        "blockClass":"InstitucionalTituloLink"
+      }
+    },
+
+    "rich-text#politicaContent":{
+
+        "props":{
+            "text":"# Política de Privacidade \n\n ## 1. Quem somos\n Castelo Alimentos S.A. (“Empresa”, “nós”, “a nós” ou “nosso”) coleta seus dados pessoais de acordo com este Aviso de Privacidade e em conformidade com as legislações de proteção de dados relevantes, em especial a Lei Geral de Proteção de Dados (LGPD).\n Esta Política fornece as informações necessárias sobre seus direitos e explica como, por que e quando tratamos seus dados pessoais.\n A Empresa está estabelecida na Avenida Professora Maria do Carmo G. Pellegrini, nº 480, Retiro, no Município de Jundiaí, Estado de São Paulo e somos uma empresa registrada no CNPJ número 07.814.284/0001-07. Atuamos como controlador ao tratar seus dados pessoais e você poderá contatar nosso DPO (que é o Encarregado de Proteção de Dados) Antonio M. Júnior pelo e-mail dpo@casteloalimentos.com.br \n\n ## 2. Informações que coletamos\n A Empresa trata suas informações pessoais para cumprir nossas obrigações legais e contratuais e para fornecer-lhe nossos produtos e serviços. Nunca coletaremos dados pessoais desnecessários e não trataremos suas informações de quaisquer outras formas que não as especificadas neste Aviso. \n Os dados pessoais que coletamos são:\n - Nome;\n - E-mail;\n - CPF;\n - Gênero;\n - Data de nascimento;\n - Número de telefone;\n - Endereço;\n - Dados do cartão de crédito;\n - Informações coletadas automaticamente por meio de cookies;\n\n Coletamos as informações das seguintes maneiras: quando você se cadastra em nosso site; por formulários on-line para seu cadastro em newsletter e para comentar e avaliar nossos produtos; pelo preenchimento de dados para efetivação da sua compra; .\n\n ## 3. Como usamos seus dados pessoais\n Nós levamos a sua privacidade muito a sério e nunca divulgaremos ou compartilharemos seus dados sem o seu consentimento, a menos que seja necessário fazer isso para os fins aqui mencionados, por força de lei ou determinação judicial.\n Nós manteremos seus dados pelo período necessário para que possamos atingir a(s) finalidade(s) especificada(s) neste Aviso. Por força de lei, poderemos manter os dados pessoais fornecidos por você pelo prazo de 5 (cinco) anos, de acordo com os artigos 12 e 34 do Código de Defesa do Consumidor, contados a partir do término da relação entre nós ou do seu pedido de exclusão, o que ocorrer primeiro. Em relação aos dados coletados de maneira automatizada, deverão ser mantidos por, no mínimo, 6 (seis) meses, nos termos do art. 15 do Marco Civil da Internet, contados da data em que a interação em nosso site foi realizada..\n Se você consentiu em receber nossas ofertas promocionais e marketing, poderá revogar o seu consentimento a qualquer momento.\n As finalidades e as razões para o tratamento de seus dados pessoais estão detalhadas abaixo:\n - Coletamos seus dados pessoais para a execução de um contrato ou fornecer um serviço/produto, e para garantir que seus pedidos sejam concluídos e possam ser enviados para o seu endereço;\n - Coletamos e armazenamos seus dados pessoais como parte de nossa obrigação legal para fins de contabilidade empresarial e tributária;\n - Ocasionalmente, enviaremos informações de marketing em que avaliamos o que pode ser benéfico para você como nosso consumidor, além de podermos enviar cupons de desconto, novidades de nossos produtos e dicas de utilização/consumo. Tais informações não serão intrusivas e são tratadas com base no seu consentimento ou em nossos interesses legítimos. Você pode optar a qualquer momento por não receber estas informações;\n - Coletamos seus dados para otimizar a sua interação conosco;\n\n ## 4. Compartilhamento de informações pessoais \n As informações coletadas são tratadas dentro da Empresa e somente serão compartilhadas quando forem necessárias para prestação adequada dos serviços objeto de suas atividades com empresas parceiras; para proteção em caso de conflito; mediante decisão judicial, obrigação legal ou requisição da autoridade competente; com empresas provedoras de infraestrutura tecnológica e operacional, como empresas que fazem a intermediação de pagamentos e provedoras de serviços de armazenamento de informações.\n Você poderá se cadastrar em nosso site utilizando-se da sua conta no Facebook ou no Google. Possibilitamos isso, pois muitos usuários preferem fazer o login dessa maneira. No entanto, alertamos que se você optar por isso, inevitavelmente seus dados serão compartilhados com o Facebook ou Google, conforme a sua escolha. Recomendamos que você leia a política/aviso de privacidade dessas empresas para compreender como seus dados serão tratados por elas.\n Não compartilharemos ou divulgaremos nenhum dado pessoal seu sem o seu consentimento, exceto para os fins especificados neste Aviso ou quando houver uma exigência legal.\n\n ## 5. Consequências de não fornecer seus dados\n Você não é obrigado a nos fornecer seus dados pessoais. No entanto, como essas informações são necessárias para fornecermos nossos produtos a você, não seremos capazes de fazer isso sem seus dados.\n\n ## 6. Seus Direitos \n Você tem o direito de acessar qualquer informação pessoal que nós tratamos a seu respeito, e pode também solicitar informações sobre quais dados pessoais temos sobre você, as finalidades do tratamento e quanto tempo pretendemos armazenar seus dados pessoais.\n Você também tem o direito de requerer a anonimização, bloqueio ou eliminação dos dados desnecessários, excessivos ou tratados em desconformidade com a lei; fazer a portabilidade dos dados para outro fornecedor, mediante requisição expressa; requerer informação sobre a possibilidade de não fornecer seu consentimento e quais seriam as consequências dessa negativa etc.\n Se você acredita que temos alguns dados incompletos ou imprecisos sobre você, você tem o direito de nos pedir para corrigir e/ou completar as informações. Nós nos esforçaremos para fazê-lo o mais rapidamente possível, a menos que haja uma razão válida para não o fazer e, neste caso, você será devidamente notificado.\n Se recebermos uma solicitação sua para exercer qualquer um dos seus direitos, podemos pedir que você confirme sua identidade antes de agirmos com base na sua solicitação. Esta confirmação é necessária para garantirmos que seus dados estão protegidos e são mantidos em segurança.\n\n ## 7. Cookies e tecnologias semelhantes\n Cookies são pequenos arquivos de texto que um site instala em seu computador ou dispositivo móvel quando você o visita. Tais arquivos permitem que, durante um certo período, o site se lembre de suas ações e preferências, como nome de usuário, tamanho dos caracteres e outras definições de visualização.\n Utilizamos cookies, pixels e outras tecnologias (coletivamente aqui chamadas simplesmente de “cookies”) para analisar o número de usuários que visitam nosso site e as maneira que são realizadas a navegação; compreender como você se comporta dentro do nosso site após visualizar ou clicar em algum dos nossos anúncios veiculados pelo Google; tornar nossos anúncios mais assertivos, já que se baseiam nas páginas visitadas anteriormente; reconhecer seu navegador ou dispositivo; aprender sobre seus interesses em nosso site e fornecer recursos e serviços essenciais.\n Você poderá escolher se aceitará apenas os cookies essenciais (chamados de cookies estritamente necessários – que são aqueles estritamente necessários para o site funcionar adequadamente) ou os cookies não essenciais, que incluem:\n • Cookies de desempenho: que coletam informações sobre como os visitantes usam o site, para analisar seu comportamento e melhorar os serviços do site;\n • Cookies de funcionalidade: que coletam e armazenam as escolhas do visitante para fornecer uma experiência mais personalidade e funcional;\n • Cookies de publicidade: usados para direcionar e exibir conteúdo, incluindo anúncios, com base nas preferências do usuário.\n\n ## 8. Dúvidas e atualizações \n Em caso de qualquer dúvida em relação a este Aviso de Privacidade ou para solicitações de seus direitos, você poderá entrar em contato diretamente com nosso DPO pelo e-mail dpo@casteloalimentos.com.br.\n O presente Aviso de Privacidade poderá ser atualizado a qualquer momento, de modo que todos os clientes/usuários do nosso site serão notificados por e-mail quando isso ocorrer.\n Última atualização: 15/08/2021.",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+
+    "rich-text#quemsomos":{
+        "props":{
+          "text":"[Sobre a Empresa](/institucional/quem-somos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#responsabilidade-social":{
+        "props":{
+          "text":"[Responsabilidade Social](/institucional/responsabilidade-social)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#representantes-comerciais":{
+        "props":{
+          "text":"[Representantes Comerciais](/institucional/representantes-comerciais)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+   
+      "rich-text#trabalhe-na-castelo":{
+        "props":{
+          "text":"[Trabalhe na Castelo](/institucional/trabalhe-na-castelo)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#compliance":{
+        "props":{
+          "text":"[Compliance](/institucional/compliance)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      
+
+      "rich-text#canal-de-denuncias":{
+        "props":{
+          "text":"[Canal de Denúncias](https://www.contatoseguro.com.br/casteloalimentos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#minha-conta-titulo":{
+        "props":{
+          "text":"Minha Conta",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+
+      "rich-text#minha-conta":{
+        "props":{
+          "text":"[Minha Conta](/_secure/Account#/profile)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#meus-pedidos":{
+        "props":{
+          "text":"[Meus Pedidos](/_secure/Account#/orders)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-privacidade":{
+        "props":{
+          "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#atendimento-e-suporte":{
+        "props":{
+          "text":"Atendimento e Suporte",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+     
+      "rich-text#politica-de-frete-gratis":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#politica-de-entrega":{
+        "props":{
+          "text":"[Frete Grátis- Consulte Condições](/institucional/frete-gratis-condicoes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-pagamento":{
+        "props":{
+          "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#perguntas-frequentes":{
+        "props":{
+          "text":"[Perguntas Frequentes](/institucional/politica-de-perguntas-frequentes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#fale-conosco":{
+        "props":{
+          "text":"[Fale Conosco](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#falar-com-sac-castelo":{
+        "props":{
+          "text":"[Falar com Sac Castelo](/institucional/falar-com-o-sac)",
+          "blockClass":"InstitucionalLink"
+        }
+      }
+
+      
+
+      
+
+
+  }
