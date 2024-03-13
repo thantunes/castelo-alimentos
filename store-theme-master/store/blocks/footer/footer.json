@@ -447,7 +447,8 @@
   "flex-layout.row#devs":{
     "children": [
       "image#vtex",
-      "image#evision"
+      "image#evision",
+      "image#whats-flutuante"
     ],
     "props": {
       "blockClass": "devs-mobile"
@@ -474,6 +475,16 @@
     }
   },
 
+
+  "image#whats-flutuante": {
+    "props": {
+      "src": "https://t76496.vtexassets.com/assets/vtex.file-manager-graphql/images/7acc7625-5abd-4311-a688-bf74bdf3036d___731011389ca2326584ef9b61bfdd62eb.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "bt-whatsapp-flutuante"
+    
+    }
+  },
 
 
   "footer-layout.mobile": {
