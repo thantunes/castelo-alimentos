@@ -20,26 +20,34 @@
   },
 
   "store.custom#fretegratis":{
-    "path":"/Institucional/politica-entrega"
+    "path":"/institucional/politica-entrega"
   },
 
   "store.custom#formasdepagamento":{
-    "path":"/Institucional/formas-de-pagamento"
+    "path":"/institucional/formas-de-pagamento"
   },
 
   "store.custom#trabalhenacastelo":{
-    "path":"/Institucional/trabalhe-na-castelo"
+    "path":"/institucional/trabalhe-na-castelo"
   },
   "store.custom#duvidasfrequentes":{
-    "path":"/Institucional/duvidasfrequentes"
+    "path":"/institucional/duvidasfrequentes"
   },
 
   "store.custom#compliance":{
-    "path":"/Institucional/compliance"
+    "path":"/institucional/compliance"
   },
 
   "store.custom#falecomosac":{
-    "path":"/Institucional/fale-com-o-sac"
+    "path":"/institucional/fale-com-o-sac"
+  },
+
+  "store.custom#politica":{
+    "path":"/institucional/politica-de-privacidade"
+  },
+
+  "store.custom#atendimento":{
+    "path":"/institucional/fale-conosco"
   }
 
  
