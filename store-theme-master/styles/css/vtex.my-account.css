@@ -3,6 +3,19 @@
 
 
 /* ---------------------- HEADER ----------------------------*/
+
+
+:global(.vtex-slider-layout-0-x-sliderTrack--carrousel-categorias-home)
+:global(.vtex-slider-layout-0-x-imageElementLink):hover {border-radius: 20px;    border: 2px solid transparent; } 
+
+:global(.vtex-slider-layout-0-x-sliderTrack--carrousel-categorias-home)
+:global(.vtex-slider-layout-0-x-imageElementLink):hover {border-radius: 20px;    border: 2px solid #c4d600;}
+
+:global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap):hover{
+
+    color:#C4D600!important;
+}
+
 :global(.vtex-store-components-3-x-searchBarInnerContainer){    border-bottom: 1px solid #001A57;}
 
 :global(.vtex-store-components-3-x-searchBarInnerContainer)
@@ -278,6 +291,13 @@
 
 /* ----------------------------FOOTER ---------------------------------*/
 
+
+:global(.vtex-store-components-3-x-imageElement--bt-whatsapp-flutuante){    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    max-width: 65px;}
+
+:global(.vtex-search-result-3-x-galleryLayoutSwitcher) {display:none;}
 
 :global(.vtex-flex-layout-0-x-flexRow--payment-methods){    background: #001A57;
     padding-bottom: 20px;}
@@ -994,13 +1014,27 @@ v:global(.tex-store-components-3-x-currencyContainer)
 
 /* ---------------- END PÁGINA DE DEPARTAMENTO ---------------------*/
 
+
 @media (min-width: 780px) {
+
+    :global(.vtex-store-components-3-x-newsletter) {
+  
+        max-width: 100%!important;
+    
+    }
+
     :global(.vtex-slider-layout-0-x-sliderTrack--dealsmobile){display:none;}
+    :global(.vtex-store-components-3-x-imageElement--bt-whatsapp-flutuante){    position: fixed;
+        right: 20px;
+        bottom: 40px;
+        max-width: 65px;}
 }
 /* -----------------------MOBILE------------------------------*/
 @media (max-width: 780px) {
 
 /*----------------------- HEADER---------------------------------*/
+
+
 
 :global(.vtex-login-2-x-container) {margin-right: -30px;}
 :global(.vtex-rich-text-0-x-container--shelfTitle) {justify-content: center !important;text-align: center !important;}
@@ -1084,6 +1118,8 @@ v:global(.tex-store-components-3-x-currencyContainer)
 /*----------------------- END - HEADER---------------------------------*/
 
 /*------------------ INSTITUCIONAIS -------------------*/
+
+
 
 :global(.vtex-flex-layout-0-x-flexCol--intitucionalLinks-container){
 
