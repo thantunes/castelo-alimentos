@@ -446,9 +446,10 @@
 
   "flex-layout.row#devs":{
     "children": [
+      "image#whats-flutuante",
       "image#vtex",
-      "image#evision",
-      "image#whats-flutuante"
+      "image#evision"
+     
     ],
     "props": {
       "blockClass": "devs-mobile"
