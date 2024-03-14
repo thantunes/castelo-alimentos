@@ -48,6 +48,11 @@
 
   "store.custom#atendimento":{
     "path":"/institucional/fale-conosco"
+  },
+
+  "store.custom#cookies":{
+
+    "path":"/institucional/cookies"
   }
 
  
