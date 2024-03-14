@@ -1,0 +1,198 @@
+{
+    "store.custom#cookies":{
+      "blocks":[
+        "flex-layout.row#cookiesContent"
+      ]
+    },
+    "flex-layout.row#cookiesContent":{
+      "props":{
+        "blockClass":"InstitucionalContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#cookiesLinks-container",
+        "rich-text#cookiesContent"
+      ]
+    },
+    "flex-layout.col#cookiesLinks-container":{
+      "props":{
+        "blockClass":"intitucionalLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#cookiesLinks"
+      ]
+    },
+    "flex-layout.col#cookiesLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#institucional",
+        "rich-text#quemsomos",
+        "rich-text#responsabilidade-social",
+        "rich-text#representantes-comerciais",
+        "rich-text#trabalhe-na-castelo",
+        "rich-text#compliance",
+        "rich-text#canal-de-denuncias",
+        "rich-text#minha-conta-titulo",
+        "rich-text#minha-conta",
+        "rich-text#meus-pedidos",
+        "rich-text#politica-de-privacidade",
+        "rich-text#atendimento-e-suporte",
+       // "rich-text#politica-de-entrega",
+        "rich-text#politica-de-frete-gratis",
+        "rich-text#politica-de-pagamento",
+        "rich-text#perguntas-frequentes",
+        "rich-text#fale-conosco",
+        "rich-text#falar-com-sac-castelo"
+     
+      ]
+    },
+
+
+    "rich-text#institucional":{
+      "props":{
+        "text":"Institucional",
+        "blockClass":"InstitucionalTituloLink"
+      }
+    },
+
+    "rich-text#cookiesContent":{
+
+        "props":{
+            "text":"# Aviso de Cookies \n\n Cookies são pequenos arquivos de texto que um site instala em seu computador ou dispositivo móvel quando você o visita. Tais arquivos permitem que, durante um certo período, o site se lembre de suas ações e preferências, como nome de usuário, tamanho dos caracteres e outras definições de visualização.\n\n Utilizamos cookies, pixels e outras tecnologias (coletivamente aqui chamadas simplesmente de 'cookies') para analisar o número de usuários que visitam nosso site e as maneiras que são realizadas a navegação; compreender como você se comporta dentro do nosso site após visualizar ou clicar em algum dos nossos anúncios veiculados pelo Google; tornar nossos anúncios mais assertivos, já que se baseiam nas páginas visitadas anteriormente; reconhecer seu navegador ou dispositivo; aprender sobre seus interesses em nosso site e fornecer recursos e serviços essenciais. \n\n Você poderá escolher se aceitará apenas os cookies essenciais (chamados de cookies estritamente necessários - que são aqueles estritamente necessários para o site funcionar adequadamente) ou os cookies não essenciais, que incluem: \n\n Cookies de desempenho: que coletam informações sobre como os visitantes usam o site, para analisar seu comportamento e melhorar os serviços do site;\n Cookies de funcionalidade: que coletam e armazenam as escolhas do visitante para fornecer uma experiência mais personalizada e funcional; \n\n Cookies de publicidade: usados para direcionar e exibir conteúdo, incluindo anúncios, com base nas preferências do usuário.",
+            "blockClass":"InstitucionalContentText"
+          }
+    },
+
+
+    "rich-text#quemsomos":{
+        "props":{
+          "text":"[Sobre a Empresa](/institucional/quem-somos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#responsabilidade-social":{
+        "props":{
+          "text":"[Responsabilidade Social](/institucional/responsabilidade-social)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#representantes-comerciais":{
+        "props":{
+          "text":"[Representantes Comerciais](/institucional/representantes-comerciais)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+   
+      "rich-text#trabalhe-na-castelo":{
+        "props":{
+          "text":"[Trabalhe na Castelo](/institucional/trabalhe-na-castelo)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#compliance":{
+        "props":{
+          "text":"[Compliance](/institucional/compliance)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      
+
+      "rich-text#canal-de-denuncias":{
+        "props":{
+          "text":"[Canal de Denúncias](https://www.contatoseguro.com.br/casteloalimentos)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      "rich-text#minha-conta-titulo":{
+        "props":{
+          "text":"Minha Conta",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+
+
+      "rich-text#minha-conta":{
+        "props":{
+          "text":"[Minha Conta](/_secure/Account#/profile)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#meus-pedidos":{
+        "props":{
+          "text":"[Meus Pedidos](/_secure/Account#/orders)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-privacidade":{
+        "props":{
+          "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#atendimento-e-suporte":{
+        "props":{
+          "text":"Atendimento e Suporte",
+          "blockClass":"InstitucionalTituloLink"
+        }
+      },
+     
+      "rich-text#politica-de-frete-gratis":{
+        "props":{
+          "text":"[Política de Entrega](/institucional/politica-de-entrega)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#politica-de-entrega":{
+        "props":{
+          "text":"[Frete Grátis- Consulte Condições](/institucional/frete-gratis-condicoes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+
+      "rich-text#politica-de-pagamento":{
+        "props":{
+          "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#perguntas-frequentes":{
+        "props":{
+          "text":"[Perguntas Frequentes](/institucional/politica-de-perguntas-frequentes)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+      
+      "rich-text#fale-conosco":{
+        "props":{
+          "text":"[Fale Conosco](/institucional/politica-de-privacidade)",
+          "blockClass":"InstitucionalLink"
+        }
+      },
+
+      "rich-text#falar-com-sac-castelo":{
+        "props":{
+          "text":"[Falar com Sac Castelo](/institucional/falar-com-o-sac)",
+          "blockClass":"InstitucionalLink"
+        }
+      }
+
+      
+
+      
+
+
+  }
