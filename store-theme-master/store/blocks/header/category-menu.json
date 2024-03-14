@@ -218,7 +218,7 @@
       },
       "menu-item#category-promocao": {
         "props": {
-          "id": "menu-item-category-home",
+          "id": "menu-item-category-home-promocao",
           "type": "custom",
           "iconId": null,
           "highlight": false,
