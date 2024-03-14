@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500&display=swap');
 
 
 /* ---------------------- HEADER ----------------------------*/
+
 
 
 :global(.vtex-slider-layout-0-x-sliderTrack--carrousel-categorias-home)
@@ -13,7 +15,9 @@
 
 :global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap):hover{
 
-    color:#C4D600!important;
+   /* color:#C4D600!important;*/
+    color:#00AEEF!important;
+ 
 }
 
 :global(.vtex-store-components-3-x-searchBarInnerContainer){    border-bottom: 1px solid #001A57;}
@@ -38,6 +42,79 @@
     margin-left: 15px;
 }
 
+
+:global(.vtex-login-2-x-accessCodeOptionBtn)
+:global(.vtex-button){font-family: "Roboto Flex", sans-serif !important;
+    background-color: #001A57;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+:global(.vtex-button){font-family: "Roboto Flex", sans-serif !important;
+    background-color: #001A57;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+:global(.vtex-login-2-x-oauthLabel){
+    font-family: "Roboto Flex", sans-serif !important;
+    font-size: 13px;
+    color: #000;
+
+}
+
+:global(.vtex-login-2-x-formTitle) {
+    white-space: pre-line;
+    font-family: "Roboto Flex", sans-serif !important;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+:global(#proceed-to-checkout){
+    background-color: #00924B;
+    border-color: #00924B;
+
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--filterCol){
+
+    min-width: 316px!important;
+}
+
+
+:global(button.vtex-button.bw1.ba.fw5.v-mid.relative.pa0.lh-solid.br2.min-h-regular.t-action.bg-disabled.b--muted-5.c-on-disabled.w-100){    padding-top: 0.25em;
+    padding-bottom: 0.32em;
+    background-color: #000;
+    width: 100%;
+    color: #fff;}
+
+
+:global(.vtex-search-result-3-x-buttonShowMore)
+:global(.vtex-button){
+
+    margin-top: 50px;
+    background-color: #C4D600;
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    max-width: 250px;
+}
+
+:global(.vtex-search-result-3-x-orderByButton){
+
+    background-color: transparent;
+}
+
 :global(.vtex-rich-text-0-x-paragraph--barra-azul-frete) {
     font-family: 'Roboto Slab',serif;
     color: #fff;
@@ -58,6 +135,7 @@
     color: #001A57;
     font-family: 'Roboto Slab',serif;
     font-size: 16px;
+    font-weight:500;
 }
 
 :global(button.vtex-locale-switcher-0-x-button.link.pa0.bg-transparent.bn.flex.items-center.pointer.mr3.c-on-base) {
@@ -341,7 +419,7 @@
         padding-bottom: 20px;
     }
 
-    :global(.vtex-flex-layout-0-x-flexRow--credits) {    max-width: 1275px;
+    :global(.vtex-flex-layout-0-x-flexRow--credits) {    max-width: 1325px;
         margin: auto;
         padding-top: 6px;}
 
@@ -400,10 +478,10 @@ font-size:12px;
             }
 
         :global(.vtex-flex-layout-0-x-flexRowContent--credits)
-        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(1){    width: 85%!important;}
+        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(1){    width: 80%!important;}
 
         :global(.vtex-flex-layout-0-x-flexRowContent--credits)
-        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(2){    width: 15%!important;}
+        :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):nth-child(2){    width: 20%!important;}
 
 
         :global(.vtex-flex-layout-0-x-flexRowContent--credits)
@@ -513,6 +591,7 @@ font-size:12px;
     font-size: 20px;
     font-weight: normal;    margin-bottom: 25px;
     display: block;
+    font-weight: 600;
 }
 
 :global(.vtex-store-components-3-x-newsletter)
@@ -531,12 +610,16 @@ font-size:12px;
     padding: 27px;
     height: 41px;
     border-radius: 8px;
-    font-size: 16px;}
+    font-size: 15px;
+    width: 168px;
+    height: 46px;}
 
 
 :global(.vtex-store-components-3-x-inputGroup) 
 :global(.vtex-styleguide-9-x-hideDecorators::placeholder) {
-    color: #000!important;
+    color: #757575 !important;
+    font-size: 13px!important;
+    font-family: "Roboto Flex", sans-serif !important;
 }
 
 :global(.vtex-store-components-3-x-inputGroup)
@@ -548,12 +631,15 @@ font-size:12px;
 
 :global(.vtex-store-footer-2-x-footerLayout)
 :global(.vtex-rich-text-0-x-paragraph) {color:#fff;color: rgb(255, 255, 255);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto Flex",sans-serif;
     padding: 0px;font-size:14px;  
     margin: 0px;  margin-bottom: 10px;}
+
+
+
     :global(.vtex-store-footer-2-x-footerLayout)
     :global(.vtex-menu-2-x-styledLinkContent){color:#fff;color: rgb(255, 255, 255);
-        font-family: Roboto, sans-serif!important;
+        font-family: "Roboto Flex", sans-serif!important;
         padding: 0px;
         font-size: 14px!important;
         font-weight: 400;   
@@ -645,7 +731,7 @@ font-size:12px;
 :global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup){max-width: 1340px;margin: auto;    padding-bottom: 20px;}
 
 :global(.vtex-tab-layout-0-x-container--product)
-:global(.hover-b--action-primary){background-color: #C4D600!important; color:#fff!important;    border: none;}
+:global(.hover-b--action-primary){background-color: #C4D600!important;     border: none;}
 
 :global(.render-route-store-product)
 :global(.vtex-tab-layout-0-x-contentContainer) {
@@ -1017,6 +1103,40 @@ v:global(.tex-store-components-3-x-currencyContainer)
 
 @media (min-width: 780px) {
 
+    :global(.vtex-store-components-3-x-carouselGaleryThumbs) 
+    :global(.swiper-slide) {
+      
+        border: 1px solid #C2C2C2;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+
+    :global(.swiper-container.swiper-container-initialized.swiper-container-vertical.h-100.undefined.swiper-container-thumbs) {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    :global(.vtex-stack-layout-0-x-stackContainer.vtex-stack-layout-0-x-stackContainer--product.relative) {
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    :global(.vtex-stack-layout-0-x-stackItem--product){
+        min-height: inherit!important;
+
+    }
+
+    :global(.vtex-tab-layout-0-x-container--product)
+    :global(.vtex-tab-layout-0-x-listContainer){
+
+        justify-content: left;
+        max-width: 1387px;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+
     :global(.vtex-store-components-3-x-newsletter) {
   
         max-width: 100%!important;
@@ -1034,7 +1154,14 @@ v:global(.tex-store-components-3-x-currencyContainer)
 
 /*----------------------- HEADER---------------------------------*/
 
+:global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap){
+    color: #001A57;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
 
+}
 
 :global(.vtex-login-2-x-container) {margin-right: -30px;}
 :global(.vtex-rich-text-0-x-container--shelfTitle) {justify-content: center !important;text-align: center !important;}
@@ -1067,6 +1194,7 @@ v:global(.tex-store-components-3-x-currencyContainer)
     padding-bottom: 10px;
     color: #000;
     font-family: 'Roboto Slab', serif;
+    max-width: 250px;
 }
 
 :global(.vtex-search-result-3-x-filterPopupTitle) {
