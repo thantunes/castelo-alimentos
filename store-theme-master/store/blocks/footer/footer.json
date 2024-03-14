@@ -498,6 +498,7 @@
 
   "footer-layout.mobile": {
     "children": [
+      "modal-trigger#aceitecookies",
       "newsletter",
       "flex-layout.row#logo-footer",
       "flex-layout.row#fale-conosco",
