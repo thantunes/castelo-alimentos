@@ -1191,6 +1191,13 @@ v:global(.tex-store-components-3-x-currencyContainer)
 /* -----------------------MOBILE------------------------------*/
 @media (max-width: 780px) {
 
+
+    :global(.vtex-modal-layout-0-x-paper.bg-base.relative.br2.vtex-modal-layout-0-x-paperNotFullScreen.dib.tl.v-mid) {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
 /*----------------------- HEADER---------------------------------*/
 
 :global(.vtex-menu-2-x-styledLinkContent.flex.justify-between.nowrap){
