@@ -5,6 +5,15 @@
 
 /* ---------------------- HEADER ----------------------------*/
 
+
+:global(a.vtex-rich-text-0-x-link.vtex-rich-text-0-x-link--deals) {
+    color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--banners-home-centro)
+:global(.vtex-store-components-3-x-imageElement){    margin: auto;
+    display: block;}
+
 :global(.vtex-modal-layout-0-x-paper.bg-base.relative.br2.vtex-modal-layout-0-x-paperNotFullScreen.dib.tl.v-mid) {
     position: fixed;
     bottom: 0;
