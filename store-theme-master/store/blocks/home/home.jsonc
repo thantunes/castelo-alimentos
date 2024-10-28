@@ -5,34 +5,19 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
-      "slider-layout#deals-mobile",
       "__fold__",
-
-
-
-      "list-context.image-list#homecategorias",
-      "flex-layout.row#banners-home-topo",
-
       "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "flex-layout.row#banners-home-centro",
 
+       "flex-layout.row#produtos-linha-1",
+       "flex-layout.row#produtos-linha-2",
 
-      "rich-text#shelf-title-mais-vendidos",
-      "flex-layout.row#shelf-mais-vendidos",
+        "sandbox#instagram",
 
-
-      "flex-layout.row#banners-home-baixo",
-      "flex-layout.row#banners-home-baixo2",
-
-
-      "rich-text#shelf-title-promocoes",
-      "flex-layout.row#shelf-promocoes"
-
+   //   "flex-layout.row#shelf",
     //  "info-card#home",
-   //   "rich-text#question",
+     // "rich-text#question",
      // "rich-text#link",
-    
+      "newsletter"
     ]
   },
 
@@ -43,12 +28,12 @@
       "preload": true,
       "images": [
         {
-          "image": "/arquivos/banner-castelo-io.png",
-          "mobileImage": "/arquivos/banner-castelo-io-mobile.png"
+          "image": "/arquivos/BanneIndustria.png",
+          "mobileImage": "/arquivos/BanneIndustria.png"
         },
         {
-          "image": "/arquivos/banner-castelo-io.png",
-          "mobileImage": "/arquivos/banner-castelo-io-mobile.png"
+          "image": "/arquivos/BanneIndustria.png",
+          "mobileImage": "/arquivos/BanneIndustria.png"
         }
       ]
     }
@@ -62,50 +47,77 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel",
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      }
+      "blockClass": "carousel"
     }
   },
 
 
 
 
-
-
-  "slider-layout#deals-mobile": {
+  "flex-layout.row#produtos-linha-1":{
     "children": [
-      "rich-text#deal1",
-      "rich-text#deal2",
-      "rich-text#deal3",
-      "rich-text#deal4"
-
-
+      "flex-layout.col#produtos-linha-1",
+       "flex-layout.col#produtos-linha-2",
+        "flex-layout.col#produtos-linha-3"
+     
     ],
     "props": {
-      "blockClass": "dealsmobile",
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-       
-      }
+      "blockClass": "home-bloco-linhas-1"
     }
   },
 
 
+   "flex-layout.col#produtos-linha-1":{
+      "children": [
+      "flex-layout.row#produtos-linha-1-premium"
+    ],
+
+    "props": {
+  "blockClass": "linha-premium-banner-home-bloco"
+}
+   },
 
 
+   "flex-layout.row#produtos-linha-1-premium":{
+    "children": [
+      "flex-layout.col#produtos-linha-1-premium",
+       // "flex-layout.row#shelf-linha-premium"
+       "search-result-layout.customQuery#linha-premium"
+    ]
+   },
 
 
+"flex-layout.col#produtos-linha-1-premium":{
+
+  "children": ["rich-text#linha-premium","rich-text#linha-premium-bt"
+],
+
+"props": {
+  "blockClass": "linha-premium-banner-home-bg"
+}
+},
+
+"rich-text#linha-premium": {
+  "props": {
+    "text": "Linha Premium",
+    "blockClass": "linha-premium-estrela-home"
+  }
+},
+
+"rich-text#linha-premium-bt": {
+  "props": {
+    "text": "[Ver todos](/linha-premium)",
+    "blockClass": "linha-premium-btr-home"
+  }
+},
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Escolha do Chefe",
-      "blockClass": "shelfTitle"
+      "text": "## Produtos",
+      "blockClass": "shelfTitle-produtos-home"
     }
   },
+
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
@@ -118,10 +130,6 @@
   },
   "slider-layout#demo-products": {
     "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
@@ -130,357 +138,329 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
-      
     }
   },
 
-
-
-
-
-
-
-
-
-
-
-  "flex-layout.row#banners-home-topo": {
-    "children": ["flex-layout.col#banners-home-topo-banner1","flex-layout.col#banners-home-topo-banner2"],
+  "flex-layout.row#shelf-linha-premium": {
+    "children": [
+      "list-context.product-list#linha-premium"
+    ]
+  },
+  "list-context.product-list#linha-premium": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products-linha-premium"
+    ],
     "props": {
-    "blockClass": "banners-home-topo"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "137"
     }
   },
-
-
-
-  
-  "flex-layout.col#banners-home-topo-banner1": {
-    "children": ["image#banners-home-topo-banner-image-1"],
+  "slider-layout#demo-products-linha-premium": {
     "props": {
-    "blockClass": "banners-home-topo-banner-image"
-    }
-  },
-
-
-  "flex-layout.col#banners-home-topo-banner2": {
-    "children": ["image#banners-home-topo-banner-image-2"],
-    "props": {
-    "blockClass": "banners-home-topo-banner-image"
-    }
-  },
-  "image#banners-home-topo-banner-image-1": {
-    "props": {
-      "src": "/arquivos/banner-linha-organica-io-v3.png"
-   
-    }
-  },
-
-  "image#banners-home-topo-banner-image-2": {
-    "props": {
-      "src": "/arquivos/banner-receitas-blog-io-v3.png"
-      
-    }
-  },
-
-
-  "flex-layout.row#banners-home-centro": {
-    "children": [ "image#banners-home-centro-banner-image"],
-    "props": {
-    "blockClass": "banners-home-centro"
-    }
-  },
-  
-  "image#banners-home-centro-banner-image": {
-    "props": {
-      "src": "/arquivos/banner-oferta-especial-io.png"
-      
-    }
-  },
-
-
-  "list-context.image-list#homecategorias": {
-    "children": ["slider-layout#homecategorias"],
-    "props": {
-      "height": 650,
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf",
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-    
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.col#produtos-linha-2":{
+    "children": [
+    "flex-layout.row#produtos-linha-2-demerara"
+  ],
+  
+"props": {
+  "blockClass": "linha-demerara-banner-home-bloco"
+}
+ },
+
+ "flex-layout.row#produtos-linha-2-demerara":{
+  "children": [
+    "flex-layout.col#produtos-linha-2-demerara",
+      //"flex-layout.row#shelf-linha-demerara"
+      "search-result-layout.customQuery#demerara"
+  ]
+ },
+
+"flex-layout.col#produtos-linha-2-demerara":{
+
+"children": ["rich-text#linha-demerara","rich-text#linha-demerara-bt"
+],
+"props": {
+  "blockClass": "linha-demerara-banner-home-bg"
+}
+},
+
+"rich-text#linha-demerara": {
+"props": {
+  "text": "Demerara",
+  "blockClass": "linha-estrela-demerara"
+}
+},
+
+"rich-text#linha-demerara-bt": {
+"props": {
+  "text": "[Ver todos](/demerara)",
+  "blockClass": "linha-br-demerara"
+}
+},
+
+"flex-layout.row#shelf-linha-demerara": {
+  "children": [
+    "list-context.product-list#linha-demerara"
+  ]
+},
+"list-context.product-list#linha-demerara": {
+  "blocks": [
+    "product-summary.shelf"
+  ],
+  "children": [
+    "slider-layout#demo-products-linha-demerara"
+  ],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC",
+    "collection": "138"
+  }
+},
+"slider-layout#demo-products-linha-demerara": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": "shelf"
+  }
+},
+
+"flex-layout.col#produtos-linha-3":{
+  "children": [
+  "flex-layout.row#produtos-linha-3-organico"
+],
+"props": {
+  "blockClass": "linha-organico-banner-home-bloco"
+}
+},
+
+
+"flex-layout.row#produtos-linha-3-organico":{
+"children": [
+  "flex-layout.col#produtos-linha-3-organico",
+   // "flex-layout.row#shelf-linha-organico",
+   "search-result-layout.customQuery#organico"
+]
+},
+
+
+"flex-layout.col#produtos-linha-3-organico":{
+
+"children": ["rich-text#linha-organico","rich-text#linha-organico-bt"
+
+],
+
+"props": {
+  "blockClass": "linha-organico-banner-home-bloco-bg"
+}
+},
+
+"rich-text#linha-organico": {
+"props": {
+"text": "Orgânico",
+"blockClass": "linha-organico-estrela"
+}
+},
+
+"rich-text#linha-organico-bt": {
+"props": {
+"text": "[Ver todos](/organico)",
+"blockClass": "linha-organico-bt"
+}
+},
+
+
+
+"flex-layout.row#produtos-linha-2":{
+    "children": [
+      "flex-layout.col#produtos-linha-4",
+      "flex-layout.col#produtos-linha-5",
+      "flex-layout.col#produtos-linha-6"
      
-      "images": [
-        {
-          "image": "/arquivos/menu-home-balsamicos-v2.png",
-          "description": "Balsâmicos",
-          "link": {
-            "properties": {
-              "url": {
-                "$ref": "/balsâmicos"   
-              }
-            }
-        
-          }
-        },
-
-        {
-          "image": "/arquivos/menu-home-molho-para-salada-v2.png",
-          "description": "Molho para Salada",
-          "link": {
-            "properties": {
-              "url": {
-                "$ref": "/molho%20para%20salada"   
-              }
-            }
-        
-          }
-        },
-        {
-          "image": "/arquivos/menu-home-azeites-v2.png",
-          "description": "Azeites",
-          "link": {
-            "properties": {
-              "url": {
-                "$ref": "/azeites"   
-              }
-            }
-        
-          }
-        },
-        {
-          "image": "/arquivos/menu-home-palmitos-v2.png",
-          "description": "Palmitos",
-          "link": {
-            "properties": {
-              "url": {
-                "$ref": "/palmitos"   
-              }
-            }
-        
-          }
-        },
-        {
-          "image": "/arquivos/menu-home-vinagres-pet-v2.png",
-          "description": "Vinagres PET",
-          "link": {
-            "properties": {
-              "url": {
-                "$ref": "/vinagres%20pet"   
-              }
-            }
-        
-          }
-        },
-        {
-          "image": "/arquivos/menu-home-vinagre-de-mesa-v3.png",
-          "description": "Vinagres Naturais",
-          "link": {
-            "properties": {
-              "url": {
-                "$ref": "/vinagres%20naturais"   
-              }
-            }
-        
-          }
-        },
-        {
-          "image": "/arquivos/menu-home-vinagre-de-mesa-v2.png",
-          "description": "Vinagres de Mesa",
-          "link": {
-            "properties": {
-              "url": {
-                "$ref": "/vinagres%20de%20mesa"   
-              }
-            }
-        
-          }
-        }
-       
-       
-      ]
-    }
-  },
-  "slider-layout#homecategorias": {
+    ],
     "props": {
-      "blockClass": "carrousel-categorias-home",
-      "itemsPerPage": {
-        "desktop": 7,
-        "tablet": 3,
-        "phone": 2
-      },
-      "infinite": true
+      "blockClass": "home-bloco-linhas-2"
     }
   },
 
 
 
+"flex-layout.col#produtos-linha-4":{
+  "children": [
+  "flex-layout.row#produtos-linha-4-mascavo"
+],
+
+"props": {
+  "blockClass": "linha-macavo-banner-home-bloco"
+}
+},
 
 
-
-
-
-
-
-
-
-
-
-
-  "rich-text#shelf-title-mais-vendidos": {
-    "props": {
-      "text": "## Mais Vendidos",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf-mais-vendidos": {
-    "children": ["list-context.product-list#mais-vendidos"]
-  },
-  "list-context.product-list#mais-vendidos": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#mais-vendidos"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#mais-vendidos": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-
-
-
-
-
-
-  "flex-layout.row#banners-home-baixo": {
-    "children": ["flex-layout.col#banners-home-baixo-banner1","flex-layout.col#banners-home-baixo-banner2"],
-    "props": {
-    "blockClass": "banners-home-baixo"
-    }
-  },
-
-
-
-  
-  "flex-layout.col#banners-home-baixo-banner1": {
-    "children": ["image#banners-home-baixo-banner-image-1"],
-    "props": {
-    "blockClass": "banners-home-baixo-banner-image"
-    }
-  },
-
-
-  "flex-layout.col#banners-home-baixo-banner2": {
-    "children": ["image#banners-home-baixo-banner-image-2"],
-    "props": {
-    "blockClass": "banners-home-baixo-banner-image"
-    }
-  },
-  "image#banners-home-baixo-banner-image-1": {
-    "props": {
-      "src": "/arquivos/molho-para-lances-io.png"
+"flex-layout.row#produtos-linha-4-mascavo":{
+"children": [
+  "flex-layout.col#produtos-linha-4-mascavo",
    
-    }
-  },
-
-  "image#banners-home-baixo-banner-image-2": {
-    "props": {
-      "src": "/arquivos/banner-home-pate-io.png"
-      
-    }
-  },
+    "search-result-layout.customQuery#mascavo"
+]
+},
 
 
+"flex-layout.col#produtos-linha-4-mascavo":{
+
+"children": ["rich-text#linha-mascavo","rich-text#linha-mascavo-bt"
+
+
+],
+"props": {
+  "blockClass": "linha-mascavo-banner-home-bloco-bg"
+}
+},
+
+"rich-text#linha-mascavo": {
+"props": {
+"text": "Mascavo",
+"blockClass": "qinha-mascavo-estrela"
+}
+},
+
+"rich-text#linha-mascavo-bt": {
+"props": {
+"text": "[Ver todos](/mascavo)",
+"blockClass": "linha-mascavo-bt"
+}
+},
 
 
 
 
-  
-  "flex-layout.row#banners-home-baixo2": {
-    "children": ["flex-layout.col#banners-home-baixo2-banner1","flex-layout.col#banners-home-baixo2-banner2"],
-    "props": {
-    "blockClass": "banners-home-baixo2"
-    }
-  },
 
 
 
-  
-  "flex-layout.col#banners-home-baixo2-banner1": {
-    "children": ["image#banners-home-baixo2-banner-image-1"],
-    "props": {
-    "blockClass": "banners-home-baixo2-banner-image"
-    }
-  },
 
 
-  "flex-layout.col#banners-home-baixo2-banner2": {
-    "children": ["image#banners-home2-baixo-banner-image-2"],
-    "props": {
-    "blockClass": "banners-home-baixo2-banner-image"
-    }
-  },
-  "image#banners-home-baixo2-banner-image-1": {
-    "props": {
-      "src": "/arquivos/banner-molhos-premium.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"flex-layout.col#produtos-linha-5":{
+  "children": [
+  "flex-layout.row#produtos-linha-5-saches"
+],
+
+"props": {
+  "blockClass": "linha-saches-banner-home-bloco"
+}
+},
+
+
+
+"flex-layout.row#produtos-linha-5-saches":{
+"children": [
+  "flex-layout.col#produtos-linha-5-saches",
    
-    }
-  },
-
-  "image#banners-home2-baixo-banner-image-2": {
-    "props": {
-      "src": "/arquivos/banner-conservas-io.png"
-      
-    }
-  },
+    "search-result-layout.customQuery#saches"
+]
+},
 
 
+"flex-layout.col#produtos-linha-5-saches":{
+
+"children": ["rich-text#linha-saches-estrela","rich-text#linha-saches-bt"],
+"props": {
+  "blockClass": "linha-saches-banner-home-bloco-bg"
+}
+},
 
 
+"rich-text#linha-saches-estrela": {
+"props": {
+"text": "Sachês",
+"blockClass": "linha-saches-estrela"
+}
+},
 
-
-  "rich-text#shelf-title-promocoes": {
-    "props": {
-      "text": "## Promoções",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf-promocoes": {
-    "children": ["list-context.product-list#promocoes"]
-  },
-  "list-context.product-list#promocoes": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#promocoes"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#promocoes": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
+"rich-text#linha-saches-bt": {
+"props": {
+"text": "[Ver todos](/saches)",
+"blockClass": "linha-saches-bt"
+}
+},
 
 
 
 
+
+"flex-layout.col#produtos-linha-6":{
+  "children": [
+  "flex-layout.row#produtos-linha-6-adocantes"
+],
+
+"props": {
+  "blockClass": "linha-adocantex-banner-home-bloco"
+}
+},
+
+
+"flex-layout.row#produtos-linha-6-adocantes":{
+"children": [
+  "flex-layout.col#produtos-linha-6-adocantes",
+  "search-result-layout.customQuery#adocantes"
+]
+},
+
+
+"flex-layout.col#produtos-linha-6-adocantes":{
+
+"children": ["rich-text#linha-adocantes","rich-text#linha-adocantes-bt"
+
+
+],
+
+"props": {
+  "blockClass": "linha-adocantes-banner-home-bloco-bg"
+}
+},
+
+"rich-text#linha-adocantes": {
+"props": {
+"text": "Adoçantes",
+"blockClass": "linha-adocantes-estrela"
+}
+},
+
+"rich-text#linha-adocantes-bt": {
+"props": {
+"text": "[Ver todos](/adocantes)",
+"blockClass": "linha-adocantes-bt"
+}
+},
 
 
 
@@ -489,7 +469,7 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     // "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
       "headline": "Clearance Sale",
       "callToActionText": "DISCOVER",
       "callToActionUrl": "/sale/d",
@@ -510,5 +490,154 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
-  }
+  },
+
+  "search-result-layout.customQuery#linha-premium": {
+    "props": {
+      "querySchema": {
+        "queryField": "137",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 1,
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#results"
+    ],
+    "props": {
+      "pagination": "show-more",
+
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+    // "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ]
+  },
+
+  "flex-layout.col#search": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "search-result-layout.customQuery#demerara": {
+    "props": {
+      "querySchema": {
+        "queryField": "138",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 1,
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#organico": {
+    "props": {
+      "querySchema": {
+        "queryField": "141",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 1,
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#mascavo": {
+    "props": {
+      "querySchema": {
+        "queryField": "142",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 1,
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#saches": {
+    "props": {
+      "querySchema": {
+        "queryField": "139",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 1,
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#adocantes": {
+    "props": {
+      "querySchema": {
+        "queryField": "143",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 1,
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+
+  "sandbox#instagram": {
+	"props": {
+	  "width": "100%",
+	  "height": "auto",
+	  "allowCookies": false,
+	  "initialContent": "<div id='curator-feed-default-feed-layout'><a href='https://curator.io' target='_blank' class='crt-logo crt-tag'>Powered by Curator.io</a></div><script type='text/javascript'>(function(){var i, e, d = document, s = 'script';i = d.createElement('script');i.async = 1;i.src = 'https://cdn.curator.io/published/82db78ac-d99f-4710-8002-3eb5b7d42019.js';e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);})();</script>"
+	}
+}
+
+
 }
