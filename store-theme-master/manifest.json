@@ -1,7 +1,7 @@
 {
-  "vendor": "t76496",
-  "name": "store-theme",
-  "version": "5.1.16",
+  "vendor": "acucarcaravelas",
+  "name": "acucarcaravelas-theme",
+  "version": "5.1.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -15,6 +15,7 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
+    "vtex.sandbox":"0.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
@@ -23,7 +24,6 @@
     "vtex.carousel": "2.x",
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
-    "vtex.iframe": "0.x",
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
